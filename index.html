@@ -37,7 +37,7 @@
         =========================== -->
         <div id="hero">           
           <!-- Featured image on the Hero area -->
-          <img class="heroshot wow bounceInUp"  src="img/1.png" alt="Featured Work" id="img1">  
+          <img class="heroshot wow bounceInUp"  src="img/1.gif" alt="Featured Work" id="img1">  
           <img class="heroshot wow bounceInUp"  src="img/2.png" alt="Featured Work" id="img2">  
           <img class="heroshot wow bounceInUp"  src="img/3.png" alt="Featured Work" id="img3">            
           <img class="heroshot wow bounceInUp"  src="img/4.png" alt="Featured Work" id="img4">  

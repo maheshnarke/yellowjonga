@@ -34,6 +34,7 @@
     .navbar-toggle {display: block;}
     .navbar-collapse.collapse {display: none!important;}
 	.navbar-nav>li {
+        background-color:grey;
         float: none;
         padding-left: 30px;
         overflow: hidden;
@@ -70,7 +71,6 @@
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
     #hero{height: 320px;}    
-    #clients {display: none;}
     .footersocial li{font-size: 1.5em}
 }
 

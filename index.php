@@ -28,8 +28,7 @@
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-
-  <!--Other necessary scripts-->
+  
 </head>
 <body data-spy="scroll">
   <header>   
@@ -38,11 +37,14 @@
         =========================== -->
         <div id="hero">           
           <!-- Featured image on the Hero area -->
-          <img class="heroshot wow bounceInUp"  src="img/woodshelves.png" alt="Featured Work">            
-        </div><!--HERO AREA END-->        
-
-        <!-- ===========================
-         NAVBAR START
+          <img class="heroshot wow bounceInUp"  src="img/1.png" alt="Featured Work" id="img1">  
+          <img class="heroshot wow bounceInUp"  src="img/2.png" alt="Featured Work" id="img2">  
+          <img class="heroshot wow bounceInUp"  src="img/3.png" alt="Featured Work" id="img3">            
+          <img class="heroshot wow bounceInUp"  src="img/4.png" alt="Featured Work" id="img4">  
+          <img class="heroshot wow bounceInUp"  src="img/5.png" alt="Featured Work" id="img5">  
+        </div><!--HERO AREA END-->       
+        <!-- ==========================5
+         NAVBAR STAR
          =========================== -->
          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
            <div class="container">
@@ -75,11 +77,11 @@
        </div>
        <div class="col-md-11">
          <ul><!--CLIENTS LOGO-->
-           <li> <img src="img/amazon.png" alt="Amazon"></li>
-           <li> <img src="img/amazon.png" alt="Amazon"></li>
-           <li><img src="img/elance-odesk.png" alt="Elance-oDesk"></li>
-           <li><img src="img/curb.png" alt="Curb Envy"></li>                     
-           <li><img src="img/curb.png" alt="Curb Envy"></li>  
+           <li> <img src="img/amazon.png" alt="Amazon" onmouseover="hoverEvent(1)"></li>
+           <li> <img src="img/amazon.png" alt="Amazon" onmouseover="hoverEvent(2)"></li>
+           <li><img src="img/elance-odesk.png" alt="Elance-oDesk" onmouseover="hoverEvent(3)"></li>
+           <li><img src="img/curb.png" alt="Curb Envy" onmouseover="hoverEvent(4)"></li>                     
+           <li><img src="img/curb.png" alt="Curb Envy" onmouseover="hoverEvent(5)"></li>  
          </ul><!--CLIENTS LOGO END-->
        </div>
      </div>
@@ -158,7 +160,36 @@
              </div><!-- FOOTER SOCIAL ICONS END -->
          </div>
      </footer><!-- FOOTER END -->
-
-
+<script type="text/javascript">
+  function hoverEvent(index){
+    
+    switch (index) {
+      case 1:
+     $('#img2,#img3,#img4,#img5').hide();
+      $("#img1").show();
+      break;
+      case 2:
+      $('#img1,#img3,#img4,#img5').hide();
+      $("#img2").show();
+      break;
+      case 3:
+      $('#img1,#img2,#img4,#img5').hide();
+      $("#img3").show();  
+      break;     
+      case 4:
+      $('#img1,#img2,#img3,#img5').hide();
+      $("#img4").show();  
+      break;
+      case 5:
+      $('#img1,#img2,#img3,#img4').hide();
+      $("#img5").show();  
+      break;
+      default:
+      alert("default'");
+      $('#img2,#img3,#img4,#img5').hide();
+      $("#img1").show();
+    }
+  }
+</script>
 </body>
 </html>

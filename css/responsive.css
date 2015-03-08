@@ -65,7 +65,7 @@
     #shotsByPlayerId li {width: 96%;}
     
     /*Footer*/
-    .footerlinks li{display: none;}       
+    .footerlinks li{display: inherit;}       
 }
 
 /* Smaller Mobile Devices */

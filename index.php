@@ -19,7 +19,9 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">    
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
-
+<!--<script-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body data-spy="scroll">
@@ -137,36 +139,34 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
   </div>
 </footer><!-- FOOTER END -->
 
-<!--<script-->
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
   function hoverEvent(index){
 
     switch (index) {
       case 1:
-      $('#img2,#img3,#img4,#img5').hide();
-      $("#img1").show();
+      jQuery('#img2,#img3,#img4,#img5').hide();
+      jQuery("#img1").show();
       break;
       case 2:
-      $('#img1,#img3,#img4,#img5').hide();
-      $("#img2").show();
+      jQuery('#img1,#img3,#img4,#img5').hide();
+      jQuery("#img2").show();
       break;
       case 3:
-      $('#img1,#img2,#img4,#img5').hide();
-      $("#img3").show();  
+      jQuery('#img1,#img2,#img4,#img5').hide();
+      jQuery("#img3").show();  
       break;     
       case 4:
-      $('#img1,#img2,#img3,#img5').hide();
-      $("#img4").show();  
+      jQuery('#img1,#img2,#img3,#img5').hide();
+      jQuery("#img4").show();  
       break;
       case 5:
-      $('#img1,#img2,#img3,#img4').hide();
-      $("#img5").show();  
+      jQuery('#img1,#img2,#img3,#img4').hide();
+      jQuery("#img5").show();  
       break;
       default:
-      $('#img2,#img3,#img4,#img5').hide();
-      $("#img1").show();
+      jQuery('#img2,#img3,#img4,#img5').hide();
+      jQuery("#img1").show();
     }
   }
 </script>

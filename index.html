@@ -18,11 +18,12 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/simple-line-icons.css">    
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  
 <!--<script-->
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!--<script src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+<script src="js/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
 </head>
 <body data-spy="scroll">
   <header>   

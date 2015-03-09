@@ -28,10 +28,10 @@
 <body data-spy="scroll">
   <header>   
     <div id="hero">           
-      <img class="heroshot wow bounceInUp"  src="img/1.png"  id="img1" >  
-      <img class="heroshot wow bounceInUp"  src="img/2.png"  id="img2" style="display:none">  
-      <img class="heroshot wow bounceInUp"  src="img/3.png"  id="img3" style="display:none">            
-      <img class="heroshot wow bounceInUp"  src="img/4.png"  id="img4" style="display:none">  
+      <img class="heroshot wow bounceInUp"  src="img/clothings-main.jpg"  id="img1" >  
+      <img class="heroshot wow bounceInUp"  src="img/accessories_main.jpg"  id="img2" style="display:none">  
+      <img class="heroshot wow bounceInUp"  src="img/restaurant_main.jpg"  id="img3" style="display:none">            
+      <img class="heroshot wow bounceInUp"  src="img/healthnWorkout_main.jpg"  id="img4" style="display:none">  
     </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      <div class="container">

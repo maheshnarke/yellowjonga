@@ -32,7 +32,6 @@
       <img class="heroshot wow bounceInUp"  src="img/2.png"  id="img2" style="display:none">  
       <img class="heroshot wow bounceInUp"  src="img/3.png"  id="img3" style="display:none">            
       <img class="heroshot wow bounceInUp"  src="img/4.png"  id="img4" style="display:none">  
-      <img class="heroshot wow bounceInUp"  src="img/5.png"  id="img5" style="display:none">  
     </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      <div class="container">
@@ -65,11 +64,10 @@
    </div>
    <div class="col-md-11">
      <ul>
-       <li> <img src="img/amazon.png" alt="Amazon" onmouseover="hoverEvent(1)"></li>
-       <li> <img src="img/amazon.png" alt="Amazon" onmouseover="hoverEvent(2)"></li>
-       <li><img src="img/elance-odesk.png" alt="Elance-oDesk" onmouseover="hoverEvent(3)"></li>
-       <li><img src="img/curb.png" alt="Curb Envy" onmouseover="hoverEvent(4)"></li>                     
-       <li><img src="img/curb.png" alt="Curb Envy" onmouseover="hoverEvent(5)"></li>  
+       <li> <img src="img/clothings.jpg" alt="Clothings" onmouseover="hoverEvent(1)"></li>
+       <li> <img src="img/accessories.jpg" alt="Accessories" onmouseover="hoverEvent(2)"></li>
+       <li><img src="img/restaurants.jpg" alt="Restaurants" onmouseover="hoverEvent(3)"></li>
+       <li><img src="img/healthnBeauty.jpg" alt="Health & Beauty" onmouseover="hoverEvent(4)"></li>                     
      </ul>
    </div>
  </div>
@@ -124,7 +122,7 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
         <li><a href="#">Contact</a></li>                   
       </ul>
     </div>
@@ -143,7 +141,6 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
 
 <script type="text/javascript">
   function hoverEvent(index){
-
     switch (index) {
       case 1:
       jQuery('#img2,#img3,#img4,#img5').hide();
@@ -160,10 +157,6 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
       case 4:
       jQuery('#img1,#img2,#img3,#img5').hide();
       jQuery("#img4").show();  
-      break;
-      case 5:
-      jQuery('#img1,#img2,#img3,#img4').hide();
-      jQuery("#img5").show();  
       break;
       default:
       jQuery('#img2,#img3,#img4,#img5').hide();

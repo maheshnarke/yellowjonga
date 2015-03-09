@@ -127,7 +127,7 @@ hr.separetor{
 
 #clients li{
     display: inline;
-    margin-right: 35px;
+    margin-right: 15px;
 }
 
 #clients li:last-child{
@@ -136,10 +136,10 @@ hr.separetor{
 
 
 
-#about{padding-top: 50px;
+#about{padding-top: 10px;
 padding-bottom: 10px;}
 
-.myapps{margin-top: 25px;}
+.myapps{margin-top: 15px;}
 .myapps li{display: inline}
 .myapps li img{
     width: 30px;

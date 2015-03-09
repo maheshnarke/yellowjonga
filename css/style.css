@@ -73,18 +73,19 @@ hr.separetor{
     margin-right: 10px;
     font-size: 20px;
 }
+
+.navbar{
+    height: 65px;
+    max-height: auto;
+}
+.brandname{
+   font-size: 30px; 
+}
 .brandname_tagline{
     margin-left: 50px;
     font-size: 13px;
 
 }
-.navbar{
-    height: 65px;
-}
-.brandname{
-   font-size: 30px; 
-}
-
 #hero{
     color: #fff;
     text-align: center;
@@ -127,7 +128,7 @@ hr.separetor{
 
 #clients li{
     display: inline;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 #clients li:last-child{
@@ -136,10 +137,10 @@ hr.separetor{
 
 
 
-#about{padding-top: 10px;
+#about{padding-top: 50px;
 padding-bottom: 10px;}
 
-.myapps{margin-top: 15px;}
+.myapps{margin-top: 25px;}
 .myapps li{display: inline}
 .myapps li img{
     width: 30px;

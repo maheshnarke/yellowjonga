@@ -64,10 +64,10 @@
    </div>
    <div class="col-md-11">
      <ul>
-       <li> <img src="img/clothings.jpg" alt="Clothings" onmouseover="hoverEvent(1)"></li>
+       <li> <img src="img/clothings1.jpg" alt="Clothings" onmouseover="hoverEvent(1)"></li>
        <li> <img src="img/accessories.jpg" alt="Accessories" onmouseover="hoverEvent(2)"></li>
-       <li><img src="img/restaurants.jpg" alt="Restaurants" onmouseover="hoverEvent(3)"></li>
-       <li><img src="img/healthnBeauty.jpg" alt="Health & Beauty" onmouseover="hoverEvent(4)"></li>                     
+       <li><img src="img/restaurant.jpg" alt="Restaurants" onmouseover="hoverEvent(3)"></li>
+       <li><img src="img/healthfitness.jpg" alt="Fitness & Beauty" onmouseover="hoverEvent(4)"></li>                     
      </ul>
    </div>
  </div>

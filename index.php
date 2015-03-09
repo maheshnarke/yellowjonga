@@ -137,8 +137,6 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
     </div>
   </div>
 </footer><!-- FOOTER END -->
-
-
 <script type="text/javascript">
   function hoverEvent(index){
     switch (index) {

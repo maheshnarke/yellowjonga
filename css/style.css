@@ -86,6 +86,8 @@ hr.separetor{
     font-size: 13px;
 
 }
+@media only screen and (max-width : 320px) {
+    }
 #hero{
     color: #fff;
     text-align: center;

@@ -65,21 +65,33 @@
     #shotsByPlayerId li {width: 96%;}
     
     /*Footer*/
-    .footerlinks li{display: inherit;}       
+    .footerlinks li{display: inherit;}   
+    .brandname_tagline{
+    margin-left: 50px;
+    font-size: 13px;
+
+}    
 }
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
     #hero{height: 320px;}    
     .footersocial li{font-size: 1.5em}
+    .brandname_tagline{
+    margin-left: 50px;
+    font-size: 10px;
+
+}
 }
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
     #hero{height: 480px;}
     .herocontent{padding-top: 100px; padding-bottom: 30px;}
-    
-
+    .brandname_tagline{
+    margin-left: 50px;
+    font-size: 8px;
+}
 }
 
 

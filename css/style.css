@@ -77,7 +77,10 @@ hr.separetor{
 .navbar{
     height: 65px;
     max-height: auto;
+    background-color: #363942;
+
 }
+
 .brandname{
    font-size: 30px; 
 }
@@ -92,7 +95,7 @@ hr.separetor{
     color: #fff;
     text-align: center;
     /*your background image*/
-    background-color:#E8E8E8  ;
+    background-color:#E8E8E8 ;
     max-height: 550px;
     overflow: hidden;
 }

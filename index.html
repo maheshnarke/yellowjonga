@@ -28,10 +28,10 @@
 <body data-spy="scroll">
   <header>   
     <div id="hero">           
-      <img class="heroshot wow bounceInUp"  src="img/clothings-main.jpg"  id="img1" >  
-      <img class="heroshot wow bounceInUp"  src="img/accessories_main.jpg"  id="img2" style="display:none">  
-      <img class="heroshot wow bounceInUp"  src="img/restaurant_main.jpg"  id="img3" style="display:none">            
-      <img class="heroshot wow bounceInUp"  src="img/healthnWorkout_main.jpg"  id="img4" style="display:none">  
+      <!-- <img class="heroshot wow bounceInUp"  src="img/clothings-main.jpg"  id="img1" >  
+      <img class="heroshot wow bounceInUp"  src="img/accessories_main.jpg"  id="img2" style="display:none"> -->  
+      <img class="heroshot wow bounceInUp"  src="img/restaurant_main.jpg"  id="img3">            
+      <!-- <img class="heroshot wow bounceInUp"  src="img/healthnWorkout_main.jpg"  id="img4" style="display:none"> -->  
     </div>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      <div class="container">
@@ -59,17 +59,12 @@
 </header>
 <div id="clients">
  <div class="container">
-   <div class="col-md-1">
-     <h4>Categories:</h4>
-   </div>
-   <div class="col-md-11">
      <ul>
-       <li> <img src="img/clothings1.jpg" alt="Clothings" onmouseover="hoverEvent(1)"></li>
-       <li> <img src="img/accessories.jpg" alt="Accessories" onmouseover="hoverEvent(2)"></li>
-       <li><img src="img/restaurant.jpg" alt="Restaurants" onmouseover="hoverEvent(3)"></li>
-       <li><img src="img/healthfitness.jpg" alt="Fitness & Beauty" onmouseover="hoverEvent(4)"></li>                     
+       <li> <img src="img/cloth.jpg" alt="Clothings" ></li>
+       <li> <img src="img/acc.jpg" alt="Accessories" ></li>
+       <li><img src="img/rest.jpg" alt="Restaurants" ></li>
+       <li><img src="img/health.jpg" alt="Fitness & Beauty"></li>                     
      </ul>
-   </div>
  </div>
  <hr>
 </div>
@@ -137,7 +132,7 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
     </div>
   </div>
 </footer><!-- FOOTER END -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
   function hoverEvent(index){
     switch (index) {
       case 1:
@@ -161,6 +156,6 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
       jQuery("#img1").show();
     }
   }
-</script>
+</script>-->
 </body>
 </html>

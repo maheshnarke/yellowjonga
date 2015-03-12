@@ -96,7 +96,7 @@ hr.separetor{
     text-align: center;
     /*your background image*/
     background-color:#E8E8E8 ;
-    max-height: 550px;
+    max-height: 400px;
     overflow: hidden;
 }
 
@@ -133,7 +133,8 @@ hr.separetor{
 
 #clients li{
     display: inline;
-    margin-right: 35px;
+    margin-right: 20px;
+
 }
 
 #clients li:last-child{

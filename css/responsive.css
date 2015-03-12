@@ -4,7 +4,7 @@
     #hero{max-height: 660px;}    
     
     /* FEATURED CLIENTS SECTION*/
-    #clients img{height: 50px;}
+    #clients img{height: 130px;}
 }
 
 /* Small Devices, Tablets */
@@ -18,7 +18,7 @@
     
     /* FEATURED CLIENTS SECTION*/
     #clients {text-align: center;}
-    #clients img{height: 40px;}
+    #clients img{height: 110px;}
     #clients ul{float: none;}
     #clients h4 {display: none;}
     

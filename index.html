@@ -60,10 +60,10 @@
 <div id="clients">
  <div class="container">
      <ul>
-       <li> <img src="img/cloth.jpg" alt="Clothings" ></li>
-       <li> <img src="img/acc.jpg" alt="Accessories" ></li>
-       <li><img src="img/rest.jpg" alt="Restaurants" ></li>
-       <li><img src="img/health.jpg" alt="Fitness & Beauty"></li>                     
+       <li> <img src="img/cloth.jpg" alt="Clothings" class="clients_Categories"></li>
+       <li> <img src="img/acc.jpg" alt="Accessories" class="clients_Categories"></li>
+       <li><img src="img/rest.jpg" alt="Restaurants" class="clients_Categories"></li>
+       <li><img src="img/health.jpg" alt="Fitness & Beauty" class="clients_Categories"></li>                     
      </ul>
  </div>
  <hr>

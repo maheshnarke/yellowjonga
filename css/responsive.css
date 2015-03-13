@@ -57,6 +57,8 @@
     /*Hero area*/
     #hero{height: 400px;}    
     .herocontent{padding-top: 30px;}
+    .clients_Categories{
+    width: 150px;
     
     /*About section*/
     #about{text-align: center;}

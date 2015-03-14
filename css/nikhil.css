@@ -1,0 +1,266 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+html{
+    width: 100%;
+    background: #ffffff;
+}
+header{
+    display: block;
+    width: 100%;
+
+}
+body{
+    display: -webkit-box;
+    background-color:gray;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+
+    width: 100%;
+    margin: 0;
+
+
+}
+
+div{
+border-radius: 0;
+}
+
+.wrap{
+
+   width:98.9%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+
+    padding: 2px;
+    background: #ffffff;
+
+
+}
+
+.topblock{
+    position: fixed;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    width:98.1%;
+    margin-left: 7px;
+    margin-right: auto;
+    height: 70px;
+    -webkit-flex: 1;
+  /*  background-color: aqua;*/
+
+    margin-top: 0;
+    border-radius: 0;
+    /*background: url("../image/paralax-1.jpg")no-repeat center center ;*/
+    background: #2d2d2d;
+    z-index: 99999;
+    opacity: 0.9;
+
+}
+.top1{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align: center;
+    margin: 0;
+    height: 90%;
+    -webkit-box-flex: 1;
+    background: #2d2d2d;
+
+}
+.logo{
+
+        margin: 10px;
+        margin-top: -15px;
+        font-size: 60px;
+        -webkit-box-flex: 1;
+        font-family: "ar darling", roman, sans serif;
+        color: gray;
+
+}
+.login{
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    background: #000000;
+    border: solid gray 1px;
+    border-radius: 0;
+    color: yellow;
+    font-size: 30px;
+
+
+}
+
+
+.middle12{
+    width: 95%;
+    background:orange ;
+    height: auto;
+    position: relative;
+}
+
+.middle{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+
+    width: 95%;
+    margin-top: 30px;
+    min-height: 400px;
+    background:#ffffff ;
+
+}
+
+.middleleft{
+
+    width: 80%;
+    background: orange;
+    min-height: 300px;
+    height: 100%;
+    margin-left: -2%;
+}
+.middleright{
+    width: 22.5%;
+
+    background: red;
+    min-height: 800px;
+    position: absolute;
+    margin-top: 2.65%;
+}
+
+.sliderblock{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    width:99.2%;
+    background-color: gray;
+    border: inherit;
+    margin-top: 0;
+    height: 470px;
+    margin-right: 2px;
+    margin-left: 2px;
+
+}
+
+.trendingblock{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+
+    width: 95%;
+    margin-top: 30px;
+    height: 400px;
+    background:#ffffff ;
+
+}
+
+.trendi1{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    margin: 10px;
+    margin-top: 3px;
+    max-height: 30px;
+
+    background-color: blue;
+    color: yellow;
+    padding: 10px;
+    border: solid black 1px;
+    font-size: 24px;
+}
+.trendi2{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align: start;
+    -webkit-box-flex: 1;
+    color:gray;
+    border-radius: 0;
+    margin-top: 50px;
+
+    width: 93%;
+    max-height: 35px;
+
+}
+
+.trendi21{
+    width: 50%;
+    font-size: 30px;
+
+}
+
+.trendi22{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+    width: 93%;
+
+
+}
+
+.trendi221{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #000000;
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 200px;
+    -webkit-animation: ani1 1.8747s 1 ease;
+    -webkit-transition:All 0.6s ease-in-out;
+
+    -webkit-box-shadow: 1px 20px 17px gray;
+}
+/*
+            @-webkit-keyframes ani1 {
+                from { -webkit-transform: rotate(0deg) scale(0) skewY(0deg) translate(0px,0px); }
+                to { -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px 0px); }
+}
+*/
+
+
+.trendi221:hover{
+    transform: rotate(0deg) scale(1.179) skew(14deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1.179) skew(0deg) translate(0px);
+    z-index: 1;
+    -webkit-box-shadow: 1px 20px 37px #000000;
+}
+
+.trendi12{
+
+    display: block;
+    align-items:flex-start;
+    width: 100%;
+    background-color: seagreen;
+    color:white;
+    border-radius: 0;
+    opacity: 999.8;
+    text-align: left;
+}
+
+.popularblock{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+
+    width: 95%;
+    margin-top: 30px;
+    height: 400px;
+    background:#ffffff ;
+}
+
+.latestdeals{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+
+    width: 95%;
+
+    margin-top: 30px;
+    height: 400px;
+    background:#ffffff ;
+}

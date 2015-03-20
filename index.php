@@ -17,13 +17,34 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/simple-line-icons.css">    
+
+  <link rel="stylesheet" href="css/simple-line-icons.css"> 
+
+  <!-- slider -->  
+  <link href="css/jquery.bxslider.css" rel="stylesheet">
   
-<!--<script-->
-<!--<script src="http://code.jquery.com/jquery-latest.min.js"></script>-->
-<script src="js/jquery-latest.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  <script src="js/jquery-latest.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script> 
+
+
+  <!--<script-->
+  <!--<script src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+  
+  
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider1').bxSlider({
+      slideWidth: 300,
+      minSlides: 1,
+      maxSlides: 4,
+      slideMargin: 10
+    });
+  });
+
+  </script>
+
 </head>
 <body data-spy="scroll">
   <header>   
@@ -59,79 +80,291 @@
 </header>
 <div id="clients">
  <div class="container">
-     <ul>
-       <li> <img src="img/cloth.jpg" alt="Clothings" class="clients_Categories"></li>
-       <li> <img src="img/acc.jpg" alt="Accessories" class="clients_Categories"></li>
-       <li><img src="img/rest.jpg" alt="Restaurants" class="clients_Categories"></li>
-       <li><img src="img/health.jpg" alt="Fitness & Beauty" class="clients_Categories"></li>                     
-     </ul>
+   <ul>
+     <li> <img src="img/cloths.jpg" alt="Clothings" class="clients_Categories"></li>
+     <li> <img src="img/acc.jpg" alt="Accessories" class="clients_Categories"></li>
+     <li><img src="img/rest.jpg" alt="Restaurants" class="clients_Categories"></li>
+     <li><img src="img/health.jpg" alt="Fitness & Beauty" class="clients_Categories"></li>                     
+   </ul>
  </div>
  <hr>
 </div>
-<div id="about" class="container">
-why it will change the game
 
-More features than rivals: Along with email, texts and phone calls, Apple says its watch will present news, health readings and other notifications in creative ways that can be read at a glance. It will have a heart rate monitor and accelerometer, and an internal motor that can signal the wearer with a subtle "tap" on the wrist. And Siri and Apple Pay will be built in. Apple is working with outside companies to create more apps; Cook has talked about using the watch as an electronic "key" for hotel doors or even cars.
+<!--Trending now  -->
+<div id="portfolio" >
+  <div class="portfolio_header" >
+    <h3>Trending now</h3>
+    <hr class="separetor">            
+  </div>  
+  <!-- PORTFOLIO ITEMS START -->
+  <div class="portfolioitems">
+    <div class="slider1">
+      <div class="slide"> 
+        <div id="shotsByPlayerId">
+          <li>
+            <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+            <h3><a href="#"></a>Prozone mall</h3>
+            <div class="likecount">
+             <a href="#">
+               <span class="icon-heart"></span> 14</a>
+             </div>
+             <div class="commentcount">
+              <a href="#">
+                <span class="icon-bubbles"></span> 8</a>
+              </div>
+            </li>
+          </div>
+        </div>
+        
+        <div class="slide"> 
+          <div id="shotsByPlayerId">
+            <li>
+              <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+              <h3><a href="#"></a>Prozone mall</h3>
+              <div class="likecount">
+               <a href="#">
+                 <span class="icon-heart"></span> 14</a>
+               </div>
+               <div class="commentcount">
+                <a href="#">
+                  <span class="icon-bubbles"></span> 8</a>
+                </div>
+              </li>
+            </div>
+          </div>
 
-A powerful brand: The world's biggest tech company has a reputation for quality and a direct conduit to customers - it operates more than 400 retail stores around the world. And it has deep pockets to spend on advertising - it is showcasing the watch this month with a sleek, 12-page insert in Vogue and other fashion magazines.
+          <div class="slide"> 
+            <div id="shotsByPlayerId">
+              <li>
+                <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                <h3><a href="#"></a>Prozone mall</h3>
+                <div class="likecount">
+                 <a href="#">
+                   <span class="icon-heart"></span> 14</a>
+                 </div>
+                 <div class="commentcount">
+                  <a href="#">
+                    <span class="icon-bubbles"></span> 8</a>
+                  </div>
+                </li>
+              </div>
+            </div>
 
-Apple's track record: This wouldn't be the first Apple product that revolutionized a market where rivals had struggled to break through. Other companies made digital music players before the iPod, smartphones before the iPhone and even tablets before the iPad. Most of those products failed to catch on until Apple made devices so appealing they set new standards and created new demand, said Forrester Research analyst J.P. Gownder.
+            <div class="slide"> 
+              <div id="shotsByPlayerId">
+                <li>
+                  <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                  <h3><a href="#"></a>Prozone mall</h3>
+                  <div class="likecount">
+                   <a href="#">
+                     <span class="icon-heart"></span> 14</a>
+                   </div>
+                   <div class="commentcount">
+                    <a href="#">
+                      <span class="icon-bubbles"></span> 8</a>
+                    </div>
+                  </li>
+                </div>
+              </div>
 
-</div>
-<div id="about" class="container">
-hy it will change the game
 
-More features than rivals: Along with email, texts and phone calls, Apple says its watch will present news, health readings and other notifications in creative ways that can be read at a glance. It will have a heart rate monitor and accelerometer, and an internal motor that can signal the wearer with a subtle "tap" on the wrist. And Siri and Apple Pay will be built in. Apple is working with outside companies to create more apps; Cook has talked about using the watch as an electronic "key" for hotel doors or even cars.
+            </div>
+          </div><!-- PORTFOLIO ITEMS END -->
+        </div>
 
-A powerful brand: The world's biggest tech company has a reputation for quality and a direct conduit to customers - it operates more than 400 retail stores around the world. And it has deep pockets to spend on advertising - it is showcasing the watch this month with a sleek, 12-page insert in Vogue and other fashion magazines.
 
-Apple's track record: This wouldn't be the first Apple product that revolutionized a market where rivals had struggled to break through. Other companies made digital music players before the iPod, smartphones before the iPhone and even tablets before the iPad. Most of those products failed to catch on until Apple made devices so appealing they set new standards and created new demand, said Forrester Research analyst J.P. Gownder.
-</div>
-<div id="about" class="container">
 
- hy it will change the game
+        <!-- Popular offers -->
 
-More features than rivals: Along with email, texts and phone calls, Apple says its watch will present news, health readings and other notifications in creative ways that can be read at a glance. It will have a heart rate monitor and accelerometer, and an internal motor that can signal the wearer with a subtle "tap" on the wrist. And Siri and Apple Pay will be built in. Apple is working with outside companies to create more apps; Cook has talked about using the watch as an electronic "key" for hotel doors or even cars.
+        <div id="portfolio" >
+          <div class="portfolio_header" >
+            <h3>Popular Offers</h3>
+            <hr class="separetor">            
+          </div>  
+          <!-- PORTFOLIO ITEMS START -->
+          <div class="portfolioitems">
+            <div class="slider1">
+              <div class="slide"> 
+                <div id="shotsByPlayerId">
+                  <li>
+                    <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                    <h3><a href="#"></a>Prozone mall</h3>
+                    <div class="likecount">
+                     <a href="#">
+                       <span class="icon-heart"></span> 14</a>
+                     </div>
+                     <div class="commentcount">
+                      <a href="#">
+                        <span class="icon-bubbles"></span> 8</a>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+                
+                <div class="slide"> 
+                  <div id="shotsByPlayerId">
+                    <li>
+                      <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                      <h3><a href="#"></a>Prozone mall</h3>
+                      <div class="likecount">
+                       <a href="#">
+                         <span class="icon-heart"></span> 14</a>
+                       </div>
+                       <div class="commentcount">
+                        <a href="#">
+                          <span class="icon-bubbles"></span> 8</a>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                  
+                  <div class="slide"> 
+                    <div id="shotsByPlayerId">
+                      <li>
+                        <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                        <h3><a href="#"></a>Prozone mall</h3>
+                        <div class="likecount">
+                         <a href="#">
+                           <span class="icon-heart"></span> 14</a>
+                         </div>
+                         <div class="commentcount">
+                          <a href="#">
+                            <span class="icon-bubbles"></span> 8</a>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    
+                    <div class="slide"> 
+                      <div id="shotsByPlayerId">
+                        <li>
+                          <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                          <h3><a href="#"></a>Prozone mall</h3>
+                          <div class="likecount">
+                           <a href="#">
+                             <span class="icon-heart"></span> 14</a>
+                           </div>
+                           <div class="commentcount">
+                            <a href="#">
+                              <span class="icon-bubbles"></span> 8</a>
+                            </div>
+                          </li>
+                        </div>
+                      </div>
+                      
 
-A powerful brand: The world's biggest tech company has a reputation for quality and a direct conduit to customers - it operates more than 400 retail stores around the world. And it has deep pockets to spend on advertising - it is showcasing the watch this month with a sleek, 12-page insert in Vogue and other fashion magazines.
+                    </div>
+                  </div><!-- PORTFOLIO ITEMS END -->
+                </div>
 
-Apple's track record: This wouldn't be the first Apple product that revolutionized a market where rivals had struggled to break through. Other companies made digital music players before the iPod, smartphones before the iPhone and even tablets before the iPad. Most of those products failed to catch on until Apple made devices so appealing they set new standards and created new demand, said Forrester Research analyst J.P. Gownder.
-</div>
-<div id="about" class="container">
 
- hy it will change the game
+                <!-- Latest offer -->
+                <div id="portfolio" >
+                  <div class="portfolio_header" >
+                    <h3>Latest Offers</h3>
+                    <hr class="separetor">            
+                  </div>  
+                  <!-- PORTFOLIO ITEMS START -->
+                  <div class="portfolioitems">
+                    <div class="slider1">
+                      <div class="slide"> 
+                        <div id="shotsByPlayerId">
+                          <li>
+                            <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                            <h3><a href="#"></a>Prozone mall</h3>
+                            <div class="likecount">
+                             <a href="#">
+                               <span class="icon-heart"></span> 14</a>
+                             </div>
+                             <div class="commentcount">
+                              <a href="#">
+                                <span class="icon-bubbles"></span> 8</a>
+                              </div>
+                            </li>
+                          </div>
+                        </div>
+                        
+                        <div class="slide"> 
+                          <div id="shotsByPlayerId">
+                            <li>
+                              <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                              <h3><a href="#"></a>Prozone mall</h3>
+                              <div class="likecount">
+                               <a href="#">
+                                 <span class="icon-heart"></span> 14</a>
+                               </div>
+                               <div class="commentcount">
+                                <a href="#">
+                                  <span class="icon-bubbles"></span> 8</a>
+                                </div>
+                              </li>
+                            </div>
+                          </div>
+                          
+                          <div class="slide"> 
+                            <div id="shotsByPlayerId">
+                              <li>
+                                <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                                <h3><a href="#"></a>Prozone mall</h3>
+                                <div class="likecount">
+                                 <a href="#">
+                                   <span class="icon-heart"></span> 14</a>
+                                 </div>
+                                 <div class="commentcount">
+                                  <a href="#">
+                                    <span class="icon-bubbles"></span> 8</a>
+                                  </div>
+                                </li>
+                              </div>
+                            </div>
+                            
+                            <div class="slide"> 
+                              <div id="shotsByPlayerId">
+                                <li>
+                                  <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                                  <h3><a href="#"></a>Prozone mall</h3>
+                                  <div class="likecount">
+                                   <a href="#">
+                                     <span class="icon-heart"></span> 14</a>
+                                   </div>
+                                   <div class="commentcount">
+                                    <a href="#">
+                                      <span class="icon-bubbles"></span> 8</a>
+                                    </div>
+                                  </li>
+                                </div>
+                              </div>
+                              
 
-More features than rivals: Along with email, texts and phone calls, Apple says its watch will present news, health readings and other notifications in creative ways that can be read at a glance. It will have a heart rate monitor and accelerometer, and an internal motor that can signal the wearer with a subtle "tap" on the wrist. And Siri and Apple Pay will be built in. Apple is working with outside companies to create more apps; Cook has talked about using the watch as an electronic "key" for hotel doors or even cars.
+                            </div>
+                          </div><!-- PORTFOLIO ITEMS END -->
+                        </div>
 
-A powerful brand: The world's biggest tech company has a reputation for quality and a direct conduit to customers - it operates more than 400 retail stores around the world. And it has deep pockets to spend on advertising - it is showcasing the watch this month with a sleek, 12-page insert in Vogue and other fashion magazines.
 
-Apple's track record: This wouldn't be the first Apple product that revolutionized a market where rivals had struggled to break through. Other companies made digital music players before the iPod, smartphones before the iPhone and even tablets before the iPad. Most of those products failed to catch on until Apple made devices so appealing they set new standards and created new demand, said Forrester Research analyst J.P. Gownder.
-</div>
+                        <!--FOOTER START-->
+                        <footer>
+                          <div class="container">
 
-<!--FOOTER START-->
-<footer>
-  <div class="container">
+                            <div class="footerlinks">\
+                              <span class="bigicon icon-speedometer "></span>
+                              <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Contact</a></li>                   
+                              </ul>
+                            </div>
 
-    <div class="footerlinks">\
-      <span class="bigicon icon-speedometer "></span>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Contact</a></li>                   
-      </ul>
-    </div>
-
-    <div class="footersocial wow fadeInUp" data-wow-duration="3s">
-      <h4>we are social</h4>
-      <ul>
-        <li><a href="http://facebook.com"><span class="icon-social-facebook"></span></a></li>
-        <li><a href="http://twitter.com"><span class="icon-social-twitter"></span></a></li>
-        <li><a href="http://youtube.com"><span class="icon-social-youtube"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</footer><!-- FOOTER END -->
+                            <div class="footersocial wow fadeInUp" data-wow-duration="3s">
+                              <h4>we are social</h4>
+                              <ul>
+                                <li><a href="http://facebook.com"><span class="icon-social-facebook"></span></a></li>
+                                <li><a href="http://twitter.com"><span class="icon-social-twitter"></span></a></li>
+                                <li><a href="http://youtube.com"><span class="icon-social-youtube"></span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </footer><!-- FOOTER END -->
 <!--<script type="text/javascript">
   function hoverEvent(index){
     switch (index) {
@@ -156,6 +389,8 @@ Apple's track record: This wouldn't be the first Apple product that revolutioniz
       jQuery("#img1").show();
     }
   }
-</script>-->
+-->
+
 </body>
+
 </html>

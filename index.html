@@ -17,12 +17,34 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/simple-line-icons.css">    
+
+  <link rel="stylesheet" href="css/simple-line-icons.css"> 
+
+  <!-- slider -->  
+  <link href="css/jquery.bxslider.css" rel="stylesheet">
+  
+  <script src="js/jquery-latest.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script> 
+
+
   <!--<script-->
   <!--<script src="http://code.jquery.com/jquery-latest.min.js"></script>-->
-  <script src="js/jquery-latest.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  
+  
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider1').bxSlider({
+      slideWidth: 300,
+      minSlides: 1,
+      maxSlides: 4,
+      slideMargin: 10
+    });
+  });
+
+  </script>
+
 </head>
 <body data-spy="scroll">
   <header>   
@@ -67,16 +89,34 @@
  </div>
  <hr>
 </div>
-<div id="portfolio">
-  <div >
+
+<!--Trending now  -->
+<div id="portfolio" >
+  <div class="portfolio_header" >
     <h3>Trending now</h3>
     <hr class="separetor">            
   </div>  
   <!-- PORTFOLIO ITEMS START -->
-  <div class="portfolioitems container">
-    <div id="ca-container" class="ca-container">
-      <div class="ca-wrapper">
-        <div class="ca-item ">
+  <div class="portfolioitems">
+    <div class="slider1">
+      <div class="slide"> 
+        <div id="shotsByPlayerId">
+          <li>
+            <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+            <h3><a href="#"></a>Prozone mall</h3>
+            <div class="likecount">
+             <a href="#">
+               <span class="icon-heart"></span> 14</a>
+             </div>
+             <div class="commentcount">
+              <a href="#">
+                <span class="icon-bubbles"></span> 8</a>
+              </div>
+            </li>
+          </div>
+        </div>
+        
+        <div class="slide"> 
           <div id="shotsByPlayerId">
             <li>
               <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -92,26 +132,8 @@
               </li>
             </div>
           </div>
-          <div class="ca-item ">
 
-           <div id="shotsByPlayerId">
-            <li>
-              <a href="#"><img alt="#" src="img/cloth.jpg"></a>
-              <h3><a href="#"></a>Prozone mall</h3>
-              <div class="likecount">
-               <a href="#">
-                 <span class="icon-heart"></span> 14</a>
-               </div>
-               <div class="commentcount">
-                <a href="#">
-                  <span class="icon-bubbles"></span> 8</a>
-                </div>
-              </li>
-
-            </div>
-          </div>
-          <div class="ca-item ">
-
+          <div class="slide"> 
             <div id="shotsByPlayerId">
               <li>
                 <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -125,87 +147,10 @@
                     <span class="icon-bubbles"></span> 8</a>
                   </div>
                 </li>
-
-              </div>
-            </div>
-            <div class="ca-item ">
-             <div id="shotsByPlayerId">
-              <li>
-                <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
-                <h3><a href="#"></a>Prozone mall</h3>
-                <div class="likecount">
-                 <a href="#">
-                   <span class="icon-heart"></span> 14</a>
-                 </div>
-                 <div class="commentcount">
-                  <a href="#">
-                    <span class="icon-bubbles"></span> 8</a>
-                  </div>
-                </li>
-
               </div>
             </div>
 
-          </div>
-        </div>
-      </div><!-- PORTFOLIO ITEMS END -->
-    </div>
-    <div id="portfolio">
-      <div >
-        <h3>Popular offers</h3>
-        <hr class="separetor">            
-      </div>  
-
-      <!-- PORTFOLIO ITEMS START -->
-      <div class="portfolioitems container">
-
-        <div id="shotsByPlayerId">
-          <li>
-            <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
-            <h3><a href="#"></a>Prozone mall</h3>
-            <div class="likecount">
-             <a href="#">
-               <span class="icon-heart"></span> 14</a>
-             </div>
-             <div class="commentcount">
-              <a href="#">
-                <span class="icon-bubbles"></span> 8</a>
-              </div>
-            </li>
-
-          </div>
-
-
-          <div id="shotsByPlayerId">
-            <li>
-              <a href="#"><img alt="#" src="img/cloth.jpg"></a>
-              <h3><a href="#"></a>Prozone mall</h3>
-              <div class="likecount">
-               <a href="#">
-                 <span class="icon-heart"></span> 14</a>
-               </div>
-               <div class="commentcount">
-                <a href="#">
-                  <span class="icon-bubbles"></span> 8</a>
-                </div>
-              </li>
-
-            </div>
-            <div id="shotsByPlayerId">
-              <li>
-                <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
-                <h3><a href="#"></a>Prozone mall</h3>
-                <div class="likecount">
-                 <a href="#">
-                   <span class="icon-heart"></span> 14</a>
-                 </div>
-                 <div class="commentcount">
-                  <a href="#">
-                    <span class="icon-bubbles"></span> 8</a>
-                  </div>
-                </li>
-
-              </div>
+            <div class="slide"> 
               <div id="shotsByPlayerId">
                 <li>
                   <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -219,23 +164,44 @@
                       <span class="icon-bubbles"></span> 8</a>
                     </div>
                   </li>
-
                 </div>
+              </div>
 
 
-              </div><!-- PORTFOLIO ITEMS END -->
             </div>
+          </div><!-- PORTFOLIO ITEMS END -->
+        </div>
 
-            <div id="portfolio">
-              <div id="portfolio">
-                <div >
-                  <h3>Latest Offers</h3>
-                  <hr class="separetor">            
-                </div>  
 
-                <!-- PORTFOLIO ITEMS START -->
-                <div class="portfolioitems container">
 
+        <!-- Popular offers -->
+
+        <div id="portfolio" >
+          <div class="portfolio_header" >
+            <h3>Popular Offers</h3>
+            <hr class="separetor">            
+          </div>  
+          <!-- PORTFOLIO ITEMS START -->
+          <div class="portfolioitems">
+            <div class="slider1">
+              <div class="slide"> 
+                <div id="shotsByPlayerId">
+                  <li>
+                    <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                    <h3><a href="#"></a>Prozone mall</h3>
+                    <div class="likecount">
+                     <a href="#">
+                       <span class="icon-heart"></span> 14</a>
+                     </div>
+                     <div class="commentcount">
+                      <a href="#">
+                        <span class="icon-bubbles"></span> 8</a>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+                
+                <div class="slide"> 
                   <div id="shotsByPlayerId">
                     <li>
                       <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -249,8 +215,10 @@
                           <span class="icon-bubbles"></span> 8</a>
                         </div>
                       </li>
-
                     </div>
+                  </div>
+                  
+                  <div class="slide"> 
                     <div id="shotsByPlayerId">
                       <li>
                         <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -264,11 +232,13 @@
                             <span class="icon-bubbles"></span> 8</a>
                           </div>
                         </li>
-
                       </div>
+                    </div>
+                    
+                    <div class="slide"> 
                       <div id="shotsByPlayerId">
                         <li>
-                          <a href="#"><img alt="#" src="img/cloth.jpg"></a>
+                          <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
                           <h3><a href="#"></a>Prozone mall</h3>
                           <div class="likecount">
                            <a href="#">
@@ -279,8 +249,25 @@
                               <span class="icon-bubbles"></span> 8</a>
                             </div>
                           </li>
-
                         </div>
+                      </div>
+                      
+
+                    </div>
+                  </div><!-- PORTFOLIO ITEMS END -->
+                </div>
+
+
+                <!-- Latest offer -->
+                <div id="portfolio" >
+                  <div class="portfolio_header" >
+                    <h3>Latest Offers</h3>
+                    <hr class="separetor">            
+                  </div>  
+                  <!-- PORTFOLIO ITEMS START -->
+                  <div class="portfolioitems">
+                    <div class="slider1">
+                      <div class="slide"> 
                         <div id="shotsByPlayerId">
                           <li>
                             <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
@@ -294,38 +281,90 @@
                                 <span class="icon-bubbles"></span> 8</a>
                               </div>
                             </li>
-
-                          </div>
-
-
-                        </div><!-- PORTFOLIO ITEMS END -->
-                      </div>
-
-
-                      <!--FOOTER START-->
-                      <footer>
-                        <div class="container">
-
-                          <div class="footerlinks">\
-                            <span class="bigicon icon-speedometer "></span>
-                            <ul>
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Terms & Conditions</a></li>
-                              <li><a href="#">Contact</a></li>                   
-                            </ul>
-                          </div>
-
-                          <div class="footersocial wow fadeInUp" data-wow-duration="3s">
-                            <h4>we are social</h4>
-                            <ul>
-                              <li><a href="http://facebook.com"><span class="icon-social-facebook"></span></a></li>
-                              <li><a href="http://twitter.com"><span class="icon-social-twitter"></span></a></li>
-                              <li><a href="http://youtube.com"><span class="icon-social-youtube"></span></a></li>
-                            </ul>
                           </div>
                         </div>
-                      </footer><!-- FOOTER END -->
+                        
+                        <div class="slide"> 
+                          <div id="shotsByPlayerId">
+                            <li>
+                              <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                              <h3><a href="#"></a>Prozone mall</h3>
+                              <div class="likecount">
+                               <a href="#">
+                                 <span class="icon-heart"></span> 14</a>
+                               </div>
+                               <div class="commentcount">
+                                <a href="#">
+                                  <span class="icon-bubbles"></span> 8</a>
+                                </div>
+                              </li>
+                            </div>
+                          </div>
+                          
+                          <div class="slide"> 
+                            <div id="shotsByPlayerId">
+                              <li>
+                                <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                                <h3><a href="#"></a>Prozone mall</h3>
+                                <div class="likecount">
+                                 <a href="#">
+                                   <span class="icon-heart"></span> 14</a>
+                                 </div>
+                                 <div class="commentcount">
+                                  <a href="#">
+                                    <span class="icon-bubbles"></span> 8</a>
+                                  </div>
+                                </li>
+                              </div>
+                            </div>
+                            
+                            <div class="slide"> 
+                              <div id="shotsByPlayerId">
+                                <li>
+                                  <a href="#"><img alt="img alt" src="img/cloth.jpg"></a>
+                                  <h3><a href="#"></a>Prozone mall</h3>
+                                  <div class="likecount">
+                                   <a href="#">
+                                     <span class="icon-heart"></span> 14</a>
+                                   </div>
+                                   <div class="commentcount">
+                                    <a href="#">
+                                      <span class="icon-bubbles"></span> 8</a>
+                                    </div>
+                                  </li>
+                                </div>
+                              </div>
+                              
+
+                            </div>
+                          </div><!-- PORTFOLIO ITEMS END -->
+                        </div>
+
+
+                        <!--FOOTER START-->
+                        <footer>
+                          <div class="container">
+
+                            <div class="footerlinks">\
+                              <span class="bigicon icon-speedometer "></span>
+                              <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Contact</a></li>                   
+                              </ul>
+                            </div>
+
+                            <div class="footersocial wow fadeInUp" data-wow-duration="3s">
+                              <h4>we are social</h4>
+                              <ul>
+                                <li><a href="http://facebook.com"><span class="icon-social-facebook"></span></a></li>
+                                <li><a href="http://twitter.com"><span class="icon-social-twitter"></span></a></li>
+                                <li><a href="http://youtube.com"><span class="icon-social-youtube"></span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </footer><!-- FOOTER END -->
 <!--<script type="text/javascript">
   function hoverEvent(index){
     switch (index) {
@@ -350,13 +389,8 @@
       jQuery("#img1").show();
     }
   }
-</script>-->
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<!-- the jScrollPane script -->
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
-<script type="text/javascript">
-$('#ca-container').contentcarousel();
-</script>
+-->
+
 </body>
+
 </html>

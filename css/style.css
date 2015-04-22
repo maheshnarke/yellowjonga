@@ -225,14 +225,11 @@ PORTFOLIO SECTION
 .likecount a{float: left; color: #c3c3c3;}
 .commentcount a{float: right; color: #c3c3c3;}
 
-
-
-
-
 footer{
     text-align: left;
     padding: 10px 0;
     background: #363942;
+  
 }
 
 footer p, footer .bigicon {color: #7e7e7e;}

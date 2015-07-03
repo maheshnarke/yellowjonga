@@ -646,7 +646,7 @@
             <div class="res-add-container">
                <div class="res-zbans zbans ">
                   <div class="banner-sponsored">
-                     <h3>Similar sale offer*</h3>
+                     <h3>Similar sale offers on*</h3>
                   </div>
                </div>
                <div class="mb15 mbot-container" data-b_id="354739" data-s_id="8601" data-bs_id="735923">

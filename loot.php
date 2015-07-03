@@ -69,7 +69,7 @@
       <div class="wrapper container" id="mainframe">
       <div class="col-l-12 res-left-area">
          <div class="row">
-            <div style="min-height: 104px;" class="col-m-5 resinfo divider--right pr0">
+            <div style="min-height: 104px;" class="col-m-7 resinfo divider--right pr0">
                <div class="resbox__main pos-relative pr15">
                   <div class="clearfix pb5">
                      <div class="resbox__main--row">
@@ -83,14 +83,14 @@
                                           <div class="s-title">
                                              <h3>Sale Details*</h3>
                                           </div>
-                                          <div class="black_color"><h5>
-                                          <ul>
-                                          <li type="square">BUY A LARGE PIZZA GET MEDIUM PIZZA SALAD COKE FREE .</li>
-                                          <li type="square">BUY A MEDIUM PIZZA GET REGULAR PIZZA GARLIC BREAD COKE FREE.</li>
-                                          <li type="square">OFFER ON V3,V4,NV2&NV3  </li>
-                                          </ul>
-                                          </h5>
-                                             
+                                          <div class="black_color">
+                                             <h5>
+                                                <ul>
+                                                   <li type="square">BUY A LARGE PIZZA GET MEDIUM PIZZA SALAD COKE FREE .</li>
+                                                   <li type="square">BUY A MEDIUM PIZZA GET REGULAR PIZZA GARLIC BREAD COKE FREE.</li>
+                                                   <li type="square">OFFER ON V3,V4,NV2&NV3  </li>
+                                                </ul>
+                                             </h5>
                                           </div>
                                        </div>
                                     </div>

@@ -23813,11 +23813,11 @@ hr.tw-hr {
 @media only screen and (min-width: 641px) {
     .res-middle-area {
         background: #fff;
-        width: 67%
+        width: 56%;
     }
     .res-left-area .col-m-5 {
         width: 33%;
-        padding-left: 15px;
+        padding-left: 17px;
         padding-top: 32px
     }
     .res-left-area {

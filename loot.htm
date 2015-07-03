@@ -83,8 +83,14 @@
                                           <div class="s-title">
                                              <h3>Sale Details*</h3>
                                           </div>
-                                          <div class="s-title">
-                                             <h5>*BUY A LARGE PIZZA GET MEDIUM PIZZA+SALAD+COKE FREE .*BUY A MEDIUM PIZZA GET REGULAR PIZZA+GARLIC BREAD+COKE FREE. *OFFER ON V3,V4,NV2&NV3</h5>
+                                          <div class="black_color"><h5>
+                                          <ul>
+                                          <li type="square">BUY A LARGE PIZZA GET MEDIUM PIZZA SALAD COKE FREE .</li>
+                                          <li type="square">BUY A MEDIUM PIZZA GET REGULAR PIZZA GARLIC BREAD COKE FREE.</li>
+                                          <li type="square">OFFER ON V3,V4,NV2&NV3  </li>
+                                          </ul>
+                                          </h5>
+                                             
                                           </div>
                                        </div>
                                     </div>

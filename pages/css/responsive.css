@@ -1,0 +1,295 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px){
+    .brandname {
+
+        font-size: 26px;
+    }
+    .icon-grid:before {
+        font-size: 21px;
+    }
+    .brandname_tagline {
+        font-size: 12px;
+    }
+    .navbar-brand p {
+        line-height: 12px;
+    }
+
+    .navbar-right {
+        margin-top: 0;
+    }
+    /*HREO AREA */
+    #hero{max-height: 660px;
+    background-size: 100%;}
+
+    /* FEATURED CLIENTS SECTION*/
+    #clients img{height: 130px;
+    width: 21.4vw;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 980px) {
+    .brandname {
+
+        font-size: 22px;
+    }
+    .icon-grid:before {
+        font-size: 20px;
+    }
+    .brandname_tagline {
+        margin-left: 35px;
+        font-size: 10px;
+    }
+    .navbar-brand p {
+        line-height: 10px;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        margin-left: 5%;
+        right: -9px;
+    }
+    /*HREO AREA */
+    #hero{
+        /*height: 540px;*/
+        margin-top: 65px;
+        height: auto;
+        max-height: 350px;
+    background-size: 100%;
+    }
+
+    /*ABOUT SECTION*/
+    #about{padding-top: 40px;}
+
+    /* FEATURED CLIENTS SECTION*/
+    #clients {
+        text-align: center;
+        /*padding-top: 0;*/
+    /*margin-top: -13vh;*/
+    }
+    #clients img{height: 110px;}
+    #clients ul{float: none;}
+    #clients h4 {display: none;}
+
+    /* PORTFOLIO SECTION */
+    #shotsByPlayerId li{width: 47%;}
+    #shotsByPlayerId li:first-child{width: 97%;}
+
+    .myphoto{text-align: center;}
+
+    /*COLLUPSABLE NAVIGATION MENU*/
+    .navbar-header {float: none;}
+    .navbar-left,.navbar-right {
+        margin-top: 70px;
+        float: none !important;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse.collapse {display: none!important;}
+	.navbar-nav>li {
+        /*border-radius: 15px;*/
+        background-color:rgb(54, 57, 66);
+        float: none;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    .collapse.in{display:block !important;}
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width : 640px) {
+    .brandname {
+
+        font-size: 18px;
+    }
+    .icon-grid:before {
+        font-size: 17px;
+    }
+    .brandname_tagline {
+        margin-left: 32px;
+
+        font-size: 9px;
+    }
+    .navbar-brand p {
+        line-height: 9px;
+    }
+
+    h2 {font-size: 1.9em;}
+    h3{font-size: 1.5em}
+    h4{font-size: 1.1em;}
+
+    #clients{
+        margin-top: -15%;
+    }
+
+    #hero{
+        margin-top: 65px;
+        background-size: contain;
+    }
+
+    .searchcity_input{
+        /*background: seagreen;*/
+        /*text-align: center;*/
+        /*width: 260px!important;*/
+    }
+    #navebar1{
+        /*height: 120px;*/
+    }
+
+    .myphoto{display: none;}
+
+
+    /*Hero area*/
+    #hero{
+        height: 400px;
+        background-size: contain;}
+    .herocontent{
+        /*padding-top: 30px;*/
+    }
+    .clients_Categories {
+        width: 150px;
+    }
+
+    /*About section*/
+    #about{text-align: center;}
+
+    /*Portfolio*/
+    #shotsByPlayerId li {width: 96%;}
+
+    /*Footer*/
+    .footerlinks li{display: inherit;}
+    .brandname_tagline{
+    /*margin-left: 50px;*/
+    /*font-size: 13px;*/
+
+}
+}
+
+/* Smaller Mobile Devices */
+@media only screen and (max-width : 480px) {
+    #hero{height: 320px;}
+    .footersocial li{font-size: 1.5em}
+    .brandname_tagline{
+    margin-left: 50px;
+    font-size: 10px;
+
+}
+}
+
+/* Smallest Mobile Devices */
+@media only screen and (max-width : 360px) {
+    #hero{height: 480px;}
+    .herocontent{padding-top: 100px; padding-bottom: 30px;}
+    .brandname_tagline{
+    margin-left: 50px;
+    font-size: 8px;
+
+    }
+    .searchcity_input{
+        background: seagreen;
+        text-align: center;
+        width: 230px!important;
+    }
+   #navebar1{
+       height: 120px;
+   }
+   #hero{
+       margin-top: 30%;
+   }
+   #clients{
+       margin-top: -90%;
+   }
+
+
+
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {  STYLES GO HERE
+.container{
+    display: flex;
+    border: green solid 4px;
+}
+    .searchcity_input {
+        background: #ffff00!important;
+    }
+    .brandname {
+
+        font-size: 26px;
+    }
+    .icon-grid:before {
+        font-size: 21px!important;
+    }
+    .brandname_tagline {
+        font-size: 12px!important;
+    }
+    .navbar-brand p {
+        line-height: 12px!important;
+    }
+
+    .navbar-right {
+        clear: both;
+
+        margin-top: -40px!important;
+        float: left!important;
+
+    }
+    HREO AREA
+    #hero{max-height: 660px!important;
+        background-size: 100%!important;}
+
+     FEATURED CLIENTS SECTION
+    #clients img{height: 130px!important;
+        width: 21.4vw!important;}
+
+    .dropmain1 {
+        float: left;
+        border: solid #000000 1px;
+        display: inline-block;
+        width: 70%!important;
+        position: relative;
+    }
+
+    .stext {
+         float: left;
+        display: block;
+        background-color: inherit;
+        width: auto;
+        text-align: center;
+        margin-top: 7px;
+        font-size: 2vw;
+        margin-right: 2vw;
+    }
+    .navbar-header{
+        width: 30%!important;
+        border: solid 1px #ffff00;
+        float: left;
+    }
+    .t9form{
+        float: left;
+    }
+.searchcity_input{
+    margin-top: 12px!important;
+}
+
+    .searchShop .d1 {
+        float: left!important;
+        width: 90%!important;
+    }
+    .searchShop .d1 {
+        width: 30%!important;
+        float: left!important;
+    }
+    .searchShop{
+        text-align: center;
+        display: block;
+        border: green solid 1px;
+    }
+    .txtsearchShop{
+
+        width: 100%!important;
+    }
+}
+
+

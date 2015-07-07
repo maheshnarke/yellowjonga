@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <title>Loot On Sale</title>
+
+  <link rel="icon" href="img/favicon.png">
+  <!-- web page icon on the Apple iPhone, iPod Touch, and iPad. -->
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+
+  <!--link-->
+    <link rel="stylesheet" href="css/stylefilter.css" media="screen">
+    <script src="js/filter.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/styles1.css" />
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="stylesheet" href="css/simple-line-icons.css"> 
+
+  <!-- slider -->
+  <link href="css/jquery.bxslider.css" rel="stylesheet">
+  
+  <script src="js/jquery-latest.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+
+
+  <!--<script-->
+  <!--<script src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+  
+  
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider1').bxSlider({
+      slideWidth: 300,
+      minSlides: 1,
+      maxSlides: 4,
+      slideMargin: 10
+    });
+  });
+
+  </script>
+
+</head>
+<body data-spy="scroll">
+  <header>   
+    <div id="hero">           
+      <!-- <img class="heroshot wow bounceInUp"  src="img/clothings-main.jpg"  id="img1" >  
+      <img class="heroshot wow bounceInUp"  src="img/accessories_main.jpg"  id="img2" style="display:none"> -->  
+      <img class="heroshot wow bounceInUp"  src="img/restaurant_main.jpg"  id="img3">            
+      <!-- <img class="heroshot wow bounceInUp"  src="img/healthnWorkout_main.jpg"  id="img4" style="display:none"> -->  
+    </div>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top" >
+         <div class="container">
+             <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                       </button>
+                   <a class="navbar-brand" href="#">
+                    <span class="brandicon icon-grid"></span>
+                    <span class="brandname">Loot On Sale</span>
+                    <p><span class="brandname_tagline">Dont just buy,buy it on sale </span></p><!-- or Cost next to nothing -->
+                  </a>
+             </div>
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="btnicon icon-user"></span>Login</a></li>
+                    <li><a href="#"><span class="btnicon icon-user"></span>Signup</a></li>
+                  </ul>
+                </div>
+         </div>
+    </div>
+
+
+
+</header>
+
+
+  <div class="container1">
+      <!-- <header>
+           <h1 class="title">
+               John Doe
+           </h1>
+       </header>
+       -->
+      <nav id="f3">
+
+          <h1 id="666">Sort By</h1>
+          <div id="page">
+
+              <form id="f1" method="post" action="">
+
+                  <!-- We are going to use jQuery to hide the select element and replace it -->
+
+                  <select id="f2" name="fancySelect" class="makeMeFancy">
+
+                      <!-- Notice the HTML5 data attributes -->
+
+                      <!-- <option value="0" selected="selected" data-skip="1">Choose Your Product</option>-->
+
+                      <option class="1" style="background: url('../img/bg.gif')" value="1" data-icon="img/products/iphone.png" data-html-text="iPhone 4&lt;i&gt;in stock&lt;/i&gt;">Popularity</option>
+                      <option value="2" data-icon="img/products/ipod.png" data-html-text="iPod &lt;i&gt;in stock&lt;/i&gt;">Popularity-High To Low</option>
+                      <option value="3" data-icon="img/products/air.png" data-html-text="MacBook Air&lt;i&gt;out of stock&lt;/i&gt;">Rating-High To Low</option>
+                      <option value="4" data-icon="img/products/imac.png" data-html-text="iMac Station&lt;i&gt;in stock&lt;/i&gt;">Cost-High To Low</option>
+                      <option value="5" data-icon="img/products/imac.png" data-html-text="iMac Station&lt;i&gt;in stock&lt;/i&gt;">Cost-Low To High</option>
+                  </select>
+              </form>
+
+          </div>
+          <!--
+          <div id="xx">
+          <h1 id="xxxx">Location</h1>
+
+          <ul id="xxx">
+              <li id="ccc">Mumbai</li>
+              <li id="ccc">Pune</li>
+              <li id="ccc">Nashik</li>
+              <li id="ccc">Ahmednagar</li>
+              <li id="ccc" style="border-bottom: solid lightsteelblue 1px ;">Goa</li>
+          </ul>
+          </div>
+          -->
+            <!--Redio--->
+
+          <h1>Category</h1>
+
+
+          <ul id="redio">
+              <li>
+                  <input type="radio" id="radio-1-1" name="radio-1-set" class="regular-radio" checked /><label for="radio-1-1"></label>
+                  <span>Dine-Out</span>
+              </li>
+
+              <li>
+                  <input type="radio" id="radio-1-2" name="radio-1-set" class="regular-radio" /><label for="radio-1-2"></label>
+                  <span>Delivery</span>
+              </li>
+              <li>
+                  <input type="radio" id="radio-1-3" name="radio-1-set" class="regular-radio" /><label for="radio-1-3"></label>
+                  <span>Drinks And Nightlife</span>
+              </li>
+              <li>
+                  <input type="radio" id="radio-1-4" name="radio-1-set" class="regular-radio" /><label for="radio-1-4"></label>
+                  <span>Cafes</span>
+              </li>
+              <li>
+                  <input type="radio" id="radio-1-5" name="radio-1-set" class="regular-radio" /><label for="radio-1-5"></label>
+                  <span>Happy Hours</span>
+              </li>
+          </ul>
+
+
+      </nav>
+
+
+
+
+      <section class="work">
+
+        <div class="xn9">
+
+            <div class="outer">
+
+                <div class="topout">
+
+                    <a>
+                        <!--
+                        <div class="left-top">
+                            #1
+                        </div>
+                        -->
+                        <div class="left-bottom">
+                            <span class="topouts1">One The house</span><br>
+                            <span class="topouts2">C Scheme</span>
+                        </div>
+
+                        <div class="right-top">
+
+                            4.1
+
+                            <!--
+                            <span>4.1</span>
+                            -->
+                        </div>
+                        <!--
+                        <div class="right-bottom">
+
+                        </div>
+                        -->
+                        <img src="img/back1.jpg" alt="yellow" />
+
+                        <div class="down">
+                            <span id="down1">E 145, Ramesh Marg, Behind Talwalkars, C Scheme, Jaipur</span><br>
+
+                            <span id="down2">50% Sale..!<button type="button" name="click" value="1">Cote</button>
+                            </span><br>
+
+                            <span id="down3">Rating:<img src="img/3-Star.png" style="width: 40px;margin-bottom: 3px"></span><br>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="outer">
+
+                <div class="topout">
+
+                    <a>
+                        <!--
+                        <div class="left-top">
+                            #1
+                        </div>
+                        -->
+                        <div class="left-bottom">
+                            <span class="topouts1">Blue Ice</span><br>
+                            <span class="topouts2">Bani Park</span>
+                        </div>
+
+                        <div class="right-top">
+                            <span>4.1</span>
+                        </div>
+                          <!--
+                        <div class="right-bottom">
+
+                        </div>
+                        -->
+                        <img src="img/back2.jpg" alt="yellow" style="opacity: 3" />
+
+                        <div class="down">
+                            <span id="down1">39, Everest Colony, Lal Kothi, Jaipur</span><br>
+                            <span id="down2"> 70% Sale..!<button type="button" name="click" value="1">Cote</button>
+                            </span><br>
+                            <span id="down3">Rating:<img src="img/3-Star.png" style="width: 40px;margin-bottom: 3px"></span><br>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+          <figure class="illustration">
+              <a href="#">
+                  <img src="img/2.jpg" alt="yellow" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="web">
+              <a href="#">
+                  <img src="img/1.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="illustration">
+              <a href="#">
+                  <img src="img/3.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="print">
+              <a href="#">
+                  <img src="img/4.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="print">
+              <a href="#">
+                  <img src="img/5.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="logo">
+              <a href="#">
+                  <img src="img/6.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="logo">
+              <a href="#">
+                  <img src="img/7.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+          <figure class="illustration">
+              <a href="#">
+                  <img src="img/3.jpg" alt="" />
+                  <dl>
+                      <dt>Name Of Shop</dt>
+                      <dd>Loot</dd>
+                      <dt>About</dt>
+                      <dd>A newly opened pub in CP. Gave my frens anniversary</dd>
+                  </dl>
+              </a>
+          </figure>
+
+      </section>
+  </div>
+
+
+                        <!--FOOTER START-->
+                        <footer>
+                          <div class="container">
+
+                            <div class="footerlinks">\
+                              <span class="bigicon icon-speedometer "></span>
+                              <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Contact</a></li>                   
+                              </ul>
+                            </div>
+
+                            <div class="footersocial wow fadeInUp" data-wow-duration="3s">
+                              <h4>we are social</h4>
+                              <ul>
+                                <li><a href="http://facebook.com"><span class="icon-social-facebook"></span></a></li>
+                                <li><a href="http://twitter.com"><span class="icon-social-twitter"></span></a></li>
+                                <li><a href="http://youtube.com"><span class="icon-social-youtube"></span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </footer><!-- FOOTER END -->
+<!--<script type="text/javascript">
+  function hoverEvent(index){
+    switch (index) {
+      case 1:
+      jQuery('#img2,#img3,#img4,#img5').hide();
+      jQuery("#img1").show();
+      break;
+      case 2:
+      jQuery('#img1,#img3,#img4,#img5').hide();
+      jQuery("#img2").show();
+      break;
+      case 3:
+      jQuery('#img1,#img2,#img4,#img5').hide();
+      jQuery("#img3").show();  
+      break;     
+      case 4:
+      jQuery('#img1,#img2,#img3,#img5').hide();
+      jQuery("#img4").show();  
+      break;
+      default:
+      jQuery('#img2,#img3,#img4,#img5').hide();
+      jQuery("#img1").show();
+    }
+  }
+-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/test.js"></script>
+
+
+</body>
+
+</html>

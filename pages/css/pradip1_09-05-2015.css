@@ -1,0 +1,141 @@
+.mainout{
+    /*border: solid gray 2px;*/
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 30px;
+    max-width: 370px;
+    max-height: 300px;
+    height: auto;
+    background-color: gray;
+    /*display: inline-block;*/
+    text-align: center;
+    box-shadow: 5px 6px 10px #000000;
+
+}
+
+.newtop{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    position: relative;
+    height: 180px;
+    width: 100%;
+    /*background-image: url("../img/back2.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shopname{
+    color: #000000;
+    background-color:gray;
+    position: absolute;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    border: solid gray 2px;
+    display:block;
+    bottom: 0px;
+    text-align: center;
+
+}
+
+
+.newbott{
+    border-top: solid gray 2px;
+
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.newbott1{
+    color: #000000;
+    border-bottom-left-radius:inherit;
+    border-right:solid gray 2px;
+    padding: 10px;
+    float: left;
+    display: block;
+    width: 65%;
+    height: 100%;
+    background-color: inherit;
+
+
+}
+.newbott2{
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    background-color: orange;
+    width: 35%;
+    height: 100%;
+}
+.text1{
+    color: #000000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 60%;
+    text-align: left;
+    height: 30%;
+    width: 100%;
+    max-width: 200px;
+    padding-right: 4px;
+}
+.text1 img{
+    width: 20px;
+    height: 15px;
+}
+
+.text2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 60%;
+    text-align: left;
+    height: 40%;
+    width: 100%;
+}
+
+.text3{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 60%;
+    padding: 5px;
+    text-align: left;
+    height: 30%;
+    width: 100%;
+    max-width: 200px;
+
+    border-bottom-left-radius: 10px;
+}
+
+.text4{
+    font-size: 50%;
+    font-weight: bold;
+    padding-top: 10px;
+    height: 40%;
+    width: 100%;
+}
+.text5{
+    border-bottom-right-radius: 10px;
+    font-size: 60%;
+    height: 60%;
+    width: 100%;
+}
+
+.text5 button{
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+
+
+}

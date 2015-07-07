@@ -1,0 +1,9 @@
+http://stackoverflow.com/questions/20510243/clear-the-form-field-after-successful-submission-of-php-form
+http://stackoverflow.com/questions/13643703/clearing-the-textbox-input-on-button-click
+http://stackoverflow.com/questions/15403283/clear-textbox-after-submit-button-click-in-php
+---*************------
+http://stackoverflow.com/questions/7747569/prevent-resubmit-form-after-click-back-button
+
+
+
+pradip shivaji makasare

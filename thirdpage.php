@@ -1,466 +1,730 @@
+
+
 <!DOCTYPE html>
-<html lang="en-US"><head>
-<title>Lootonsale| Listify</title>
-<link rel="stylesheet" id="listify-fonts-css" href="thirdpage/css_002.css" type="text/css" media="all">
-<link rel="stylesheet" id="listify-css" href="thirdpage/style_002.css" type="text/css" media="all">
-
-
-<style id="listify-inline-css" type="text/css">
-		input,textarea,input[type="checkbox"],input[type="radio"]{border-color:#ebeef1;}
-			body,button,input,select,textarea{color:#717a8f;}
-			button:not([role="presentation"]),input[type="button"],input[type="reset"],input[type="submit"],.button,.facetwp-type-slider .noUi-connect,.ui-slider .ui-slider-range,.listing-owner,.comment-rating,.job_listing-rating-average,.map-marker.active:after,.cluster,.widget_calendar tbody a,.job_listing-author-info-more a:first-child,.load_more_jobs{background-color:#77c04b;}
-			.button-secondary,input[type="button"].facetwp-reset,.job_listing-author-info-more a:last-child{background-color:#3396d1;}
-</style>
-</head>
-
-<body >
-
-<div id="page" class="hfeed site">
-	<div id="content" class="site-content">
-		<div class="single_job_listing" >
-			<div style="background-image: url('thirdpage/imgs/main_img.jpg');" class="listing-cover content-single-job_listing-hero has-image">
-				<div class="content-single-job_listing-hero-wrapper cover-wrapper container">
-					<div class="content-single-job_listing-hero-inner row">
-						<div class="content-single-job_listing-hero-company col-md-7 col-sm-12">
-							<h1 itemprop="name" class="job_listing-title">Nike Prozone Shoppee</h1>
-							<div class="job_listing-location job_listing-location-formatted">
-								<span >67 Mowat Avenue<br>Toronto Ontario M6K 3E3<br>Canada</span>
-							</div>
-							<div class="content-single-job_listing-title-category">
-								<span class="ion-chevron-right"></span>
-								<span itemprop="title">Accessories</span>
-							</div>
-							<div class="rating-4 job_listing-rating-wrapper" >
-								<span class="job_listing-rating-stars">
-									<span class="stars-rating">
-										<span class="dashicons dashicons-star-filled"></span>
-										<span class="dashicons dashicons-star-filled"></span>
-										<span class="dashicons dashicons-star-filled"></span>
-										<span class="dashicons dashicons-star-filled"></span>
-										<span class="dashicons dashicons-star-filled"></span>
-									</span>
-								</span>
-								<span class="job_listing-rating-average">
-									<span itemprop="ratingValue">4.8</span>
-								</span>
-								<span class="job_listing-rating-count">
-									<span itemprop="reviewCount">4</span> Reviews  
-								</span>
-							</div>
-							<div class=" wp-job-manager-bookmarks-form ">
-								<div class="bookmark-notice" >
-								</div>
-							</div>
-							<span class="wp-job-manager-bookmarks-count">83 Favorites</span>
-						</div>
-						<div class="content-single-job_listing-hero-actions col-md-5 col-sm-12">
-							<div class="content-single-job_listing-hero-company col-md-12 col-sm-12">
-								<h1  class="job_listing-title">Loot On Sale</h1>
-								<span class="job_listing-location">Special Offer* </span>
-								<p><h3  class="job_listing-title">50% OFF</h3></p>
-								<br>
-								<br>
-							</div>
-							<div>
-								<a href="#respond" class=" button button-secondary">Submit a Review</a>
-								<a href="#" class="button " >Get Code</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	<div id="primary" class="container">
-		<div class="row content-area">
-			<main id="main" class="site-main col-md-8 col-sm-7 col-xs-12" role="main">
-				<!-- PHOTOS:: START -->
-		<aside class="widget widget-job_listing listify_widget_panel_listing_gallery_slider">
-			<h1 class="widget-title widget-title-job_listing">Photos</h1>
-			<div class="listing-gallery slick-initialized slick-slider">
-				<div style="height: 452px;" tabindex="0" class="slick-list draggable">
-					<div style="opacity: 1; width: 2037px;" class="slick-track">
-						<div style="width: 679px; position: relative; left: 0px; top: 0px; z-index: 900; opacity: 1;" data-slick-index="0" class="listing-gallery__item slick-slide slick-active">
-							<a href="#">
-								<img src="thirdpage/309-1024x682.jpg" class="attachment-large" alt="309" height="500" width="750">
-							</a>
-						</div>
-						<div style="width: 679px; position: relative; left: -679px; top: 0px; z-index: 800; opacity: 0;" data-slick-index="1" class="listing-gallery__item slick-slide">
-							<a href="#">
-								<img src="thirdpage/306-1024x682.jpg" class="attachment-large" alt="306" height="500" width="750">
-							</a>
-						</div>
-						<div style="width: 679px; position: relative; left: -1358px; top: 0px; z-index: 800; opacity: 0;" data-slick-index="2" class="listing-gallery__item slick-slide">
-							<a href="#">
-								<img src="thirdpage/photo-1415226581130-91cb7f52f078-1024x768.jpg" class="attachment-large" alt="photo-1415226581130-91cb7f52f078" height="563" width="750">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="listing-gallery-nav slick-initialized slick-slider">
-				<div tabindex="0" class="slick-list draggable">
-					<div style="opacity: 1; width: 297px; transform: translate3d(0px, 0px, 0px);" class="slick-track">
-						<div style="width: 99px;" data-slick-index="0" class="listing-gallery-nav__item slick-slide slick-active">
-							<div class="item__wrapper">
-								<img src="thirdpage/309-150x150.jpg" class="attachment-thumbnail" alt="309" height="150" width="150">
-							</div>
-						</div>
-						<div style="width: 99px;" data-slick-index="1" class="listing-gallery-nav__item slick-slide slick-active">
-							<div class="item__wrapper">
-								<img src="thirdpage/306-150x150.jpg" class="attachment-thumbnail" alt="306" height="150" width="150">
-							</div>
-						</div>
-						<div style="width: 99px;" data-slick-index="2" class="listing-gallery-nav__item slick-slide slick-active">
-							<div class="item__wrapper">
-								<img src="thirdpage/photo-1415226581130-91cb7f52f078-150x150.jpg" class="attachment-thumbnail" alt="photo-1415226581130-91cb7f52f078" height="150" width="150">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</aside>
-			<!-- PHOTOS:: START -->
-			<!-- GOOGLE MAPS AND ADDRESS:: START -->
-		<aside id="listify_widget_panel_listing_map-3" class="widget widget-job_listing listify_widget_panel_listing_map">
-			<div class="row">
-				<div class="col-md-6 col-sm-12">
-				<a  class="listing-contact-map-clickbox"></a>
-				<div style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden;" id="listing-contact-map">
-					<div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
-						<div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
-							<div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%;">
-								GOOGLE MAPS
-							</div>
-							<div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%;">
-								<div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
-									<div style="position: absolute; top: 105.338px; left: 164.901px;">
-										<div>
-											<div class="map-marker type-174">
-												<i class="ion-scissors"></i>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="listing-contact-overview">
-					<div class="listing-contact-overview-inner">
-						<div class="job_listing-location job_listing-location-formatted">
-							<a class="google_map_link">
-								<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">67 Mowat Avenue<br>Toronto Ontario M6K 3E3<br>Canada</span>
-							</a>
-						</div>
-						<div class="job_listing-phone">
-							<span itemprop="telephone">
-								<a href="tel:9055555555">(905) 555-5555</a>
-							</span>
-						</div>
-						<div class="job_listing-url">
-							<span itemprop="url">
-								<a href="#" rel="nofollow" target="_blank">LOOTONSALE.com</a>
-							</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</aside>
-	<!-- GOOGLE MAPS AND ADDRESS:: END -->
-	
-	
-	<!-- COMMENTS LIST:: START -->
-	<div id="comments" class="comments-area widget widget-job_listing">
-		<h3 class="comment-sorting">Sort By</h3>
-		<form action="#comments" method="get" class="comment-sorting-filter-form">
-			<select name="sort-comments" class="comment-sorting-filter">
-				<option selected="selected" value="date-desc">Newest First</option>
-				<option value="date-asc">Oldest First</option>
-				<option value="rating-desc">Rating (High-Low)</option>
-				<option value="rating-asc">Rating (Low-High)</option>
-			</select>
-		</form>
-		<ol class="commentlist">
-			<li class="comment even thread-even depth-1" id="comment-14833" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-				<article id="comment-14833" class="comment row">
-					<header class="comment-author vcard col-md-2 col-sm-3 col-xs-12">
-						<img alt="" src="thirdpage/e8ce5a3d24b8b0efcb80897dd0956d2e.jpg" srcset="https://2.gravatar.com/avatar/e8ce5a3d24b8b0efcb80897dd0956d2e?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">
-					</header><!-- .comment-meta -->
-					<section class="comment-content comment col-md-10 col-sm-9 col-xs-12">
-						<cite itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-							<b class="fn" itemprop="name">Joseph</b>
-						</cite>
-						<div class="comment-meta">
-							<a class="comment-reply-link" href="#" onclick='return addComment.moveForm( "comment-14833", "14833", "respond", "685" )' aria-label="Reply to Joseph">
-								<i class="ion-ios-chatboxes-outline"></i>
-							</a>
-						</div>
-						<p class="comment-awaiting-moderation">Your comment is awaiting moderation.</p>
-						<div itemprop="reviewBody">
-						<div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="comment-rating">
-							<span itemprop="ratingValue">3.0</span>
-						</div>
-						<div id="wpjmr-list-reviews">
-							<div class="star-rating">
-								<div class="star-rating-title">Quality
-								</div>
-								<p>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-								</p>
-							</div>
-							<div class="star-rating">
-								<div class="star-rating-title">Service</div>
-								<p>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-								</p>
-							</div>
-							<div class="star-rating">
-								<div class="star-rating-title">Value</div>
-								<p>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-filled"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-									<span class="dashicons dashicons-star-empty"></span>
-								</p>
-							</div>
-							<p></p>
-						</div>
-						<p>Godd</p>
-					</div>
-					<a href="#" class="comment-ago">
-						<time datetime="2015-05-09T12:52:24+00:00" itemprop="datePublished">2 days ago</time>
-					</a>
-				</section><!-- .comment-content -->
-			</article><!-- #comment-## -->
-		</li><!-- #comment-## -->
-		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-385" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
-			<article id="comment-385" class="comment row">
-				<header class="comment-author vcard col-md-2 col-sm-3 col-xs-12">
-				<img alt="" src="thirdpage/592cb8375141580cafb770c1ae173283.jpg" srcset="https://2.gravatar.com/avatar/592cb8375141580cafb770c1ae173283?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">
-			</header><!-- .comment-meta -->
-			<section class="comment-content comment col-md-10 col-sm-9 col-xs-12">
-				<cite itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-					<b class="fn" itemprop="name">Nick Roach</b>
-				</cite>
-				<div class="comment-meta">
-					<a class="comment-reply-link" href="#"  aria-label="Reply to Nick Roach">
-						<i class="ion-ios-chatboxes-outline"></i>
-					</a> 
-				</div>
-				<div itemprop="reviewBody">
-					<div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="comment-rating">
-						<span itemprop="ratingValue">5.0</span>
-					</div>
-					<div id="wpjmr-list-reviews">
-						<div class="star-rating">
-							<div class="star-rating-title">Quality</div>
-							<p>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-							</p>
-						</div>
-						<div class="star-rating">
-							<div class="star-rating-title">Service</div>
-							<p>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-							</p>
-						</div>
-						<div class="star-rating">
-							<div class="star-rating-title">Value</div>
-							<P>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-								<span class="dashicons dashicons-star-filled"></span>
-							</p>
-						</div>
-						<p></p>
-					</div>
-					<p>Simply the best. There isn’t much more to say. These guys are amazing. If I could get 10 Stars I would.</p>
-				</div>
-				<a href="#" class="comment-ago">
-					<time datetime="2014-11-20T18:55:39+00:00" itemprop="datePublished">6 months ago</time>
-				</a>
-			</section><!-- .comment-content -->
-		</article><!-- #comment-## -->
-	</li><!-- #comment-## -->
-</ol><!-- .commentlist -->
-
-<!-- COMMENTS LIST:: END -->
-<!-- REVIEW:: START -->
-<div id="respond" class="comment-respond">
-	<h3 id="reply-title" class="comment-reply-title">
-		<span class="ion-ios-compose-outline"></span>Write A Review 
-		<small>
-			<a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel reply</a>
-		</small>
-	</h3>
-	<form action="#" method="post" id="commentform" class="comment-form" novalidate="">
-		<div id="wpjmr-submit-ratings" class="review-form-stars">
-			<div class="star-ratings">
-				<div class="rating-row">
-					<label for="0">Quality
-					</label>
-					<div class="choose-rating" data-rating-category="0">
-						<span data-star-rating="5" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="4" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="3" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="2" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="1" class="star dashicons dashicons-star-empty"></span>
-						<input class="required" name="star-rating-0" value="" type="hidden">
-					</div>
-				</div>
-				<div class="rating-row">
-					<label for="1">Service</label>
-					<div class="choose-rating" data-rating-category="1">
-						<span data-star-rating="5" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="4" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="3" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="2" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="1" class="star dashicons dashicons-star-empty"></span>
-						<input class="required" name="star-rating-1" value="" type="hidden">
-					</div>
-				</div>
-				<div class="rating-row">
-					<label for="2">Value</label>
-					<div class="choose-rating" data-rating-category="2">
-						<span data-star-rating="5" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="4" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="3" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="2" class="star dashicons dashicons-star-empty"></span>
-						<span data-star-rating="1" class="star dashicons dashicons-star-empty"></span>
-						<input class="required" name="star-rating-2" value="" type="hidden">
-					</div>
-				</div>
-			</div>
-		</div>
-		<p class="comment-form-author">
-			<label for="author">Name 
-				<span class="required">*</span>
-			</label>
-			<input id="author" name="author" size="30" aria-required="true" required="required" type="text">
-		</p>
-		<p class="comment-form-email">
-			<label for="email">Email 
-				<span class="required">*</span>
-			</label>
-			<input id="email" name="email" size="30" aria-describedby="email-notes" aria-required="true" required="required" type="email">
-		</p>
-		<p class="comment-form-url">
-			<label for="url">Website</label>
-			<input id="url" name="url" size="30" type="url">
-		</p>
-		<p class="comment-form-comment">
-			<label for="comment">Comment</label>
-			<textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea>
-		</p>
-		<p class="form-submit">
-			<input name="submit" id="submit" class="submit" value="Publish Review" type="submit">
-			<input name="comment_post_ID" value="685" id="comment_post_ID" type="hidden">
-			<input name="comment_parent" id="comment_parent" value="0" type="hidden">
-		</p>
-		<p style="display: none;">
-			<input id="akismet_comment_nonce" name="akismet_comment_nonce" value="81c03406b1" type="hidden">
-		</p>
-		<p style="display: none;"></p>
-		<input id="ak_js" name="ak_js" value="1431323709958" type="hidden">
-	</form>
-</div><!-- #respond -->
-<!-- REVIEW:: END -->
-</div><!-- #comments -->
-</main>
-
-
-<!-- SIDE BAR -->
-<!-- DETAILS: START-->
-	<div id="secondary" class="widget-area col-md-4 col-sm-5 col-xs-12" role="complementary">
-		<aside id="listify_widget_panel_listing_auhtor-2" class="widget widget-job_listing listify_widget_panel_listing_auhtor">
-			<div class="job_listing-author">
-				<div class="job_listing-author-info">Special Offer Details</div> <br>
-				<div class="job_listing-author-biography">
-					<h3>60% off </h3>
-					A barber is a person whose occupation is mainly to cut, dress, groom, 
-			style and shave men’s and boys’ hair. A barber’s place of work is known 
-			as a “barber shop” or a “barber’s”. Barber shops are also places of 
-			social interaction and public discourse. In some instances, barbershops 
-			are also public forums. They are the locations of open debates, voicing 
-			public concerns, and engaging citizens in discussions about contemporary
-			 issues. 
-
-
-				</div>
-			</div>
-		</aside>
-<!-- DETAILS: END-->
-<!-- SOCIAL PROFILE: START-->
-		<aside id="listify_widget_panel_listing_social_profiles-4" class="widget widget-job_listing listify_widget_panel_listing_social_profiles">
-			<h1 class="widget-title widget-title-job_listing ion-ios-chatboxes-outline">Social Profiles</h1>
-			<ul class="social-profiles">
-				<li>
-					<a href="#" class="ion-social-twitter">Twitter URL</a>
-				</li>
-				<li>
-					<a href="#" class="ion-social-facebook">Facebook URL</a>
-				</li>
-				<li>
-					<a href="#" class="ion-social-googleplus">Google+ URL</a>
-				</li>
-				<li>
-					<a href="#" class="ion-social-pinterest">Pinterest URL</a>
-				</li>
-				<li>
-					<a href="#" class="ion-social-linkedin">LinkedIn URL</a>
-				</li>
-				<li>
-					<a href="#" class="ion-social-github">GitHub URL</a>
-				</li>
-			</ul>
-		</aside>
-<!-- SOCIAL PROFILE: END-->
-<!-- AMENITIES: START-->
-		<aside id="listify_widget_panel_listing_tags-2" class="widget widget-job_listing listify_widget_panel_listing_tags">
-			<h1 class="widget-title widget-title-job_listing ion-ios-pricetags-outline">Amenities</h1>
-			<span class="tag active">Accepts Credit Cards</span>
-			<span class="tag inactive">Alcohol</span>
-			<span class="tag inactive">Caters</span>
-			<span class="tag inactive">Delivery</span>
-			<span class="tag inactive">Good for Groups</span>
-			<span class="tag active">Good for Kids</span>
-			<span class="tag inactive">Has TV</span>
-			<span class="tag inactive">Outdoor Seating</span>
-			<span class="tag inactive">Parking</span>
-			<span class="tag inactive">Take-out</span>
-			<span class="tag inactive">Takes Reservations</span>
-			<span class="tag inactive">Waiter Service</span>
-			<span class="tag active">Wheelchair Accessible</span>
-			<span class="tag active">WiFi</span>
-		</aside>
-		<!-- AMENITIES: END-->
-	</div><!-- #secondary -->
-</div>
-</div>
-</div>
-</div><!-- #content -->
-</div><!-- #page -->
-</body>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Loot on sale</title>
+      <link rel="stylesheet" type="text/css" href="loot/thirdpage.css">
+      <style type="text/css">
+         body{
+         color: black;
+         }
+         .black_color{
+         color: #999999;
+         }
+      </style>
+   </head>
+   <body >
+      <!-- Acquistion Banner messages-->
+      <div class="res-imagery-default imagery item-to-hide-parent">
+      <div class="hero hero--restaurant" style="background-image:url('loot/main_back.jpg');  ">
+      <div class="hero--overlay">
+         <div class="wrapper container hero_restaurant_wrapper">
+            <!-- </section> -->
+            <div class="col-l-12 resbox-intro resbox-intro--obp">
+               <div class="header-border clearfix">
+                  <div class="">
+                     <div class="clearfix">
+                        <div class="resbox__header">
+                           <div class="resbox__header--left">
+                              <div class="res-name-wrapper clearfix">
+                                 <h1 class="res-name left">
+                                    <a href="#" title="Smokin' Joe's Mumbai">
+                                    <span itemprop="name" style="font-size: 90%">Smokin' Joe's</span>
+                                    </a>
+                                 </h1>
+                              </div>
+                           </div>
+                           <div class="left res-action-box hom hot">
+                              <div class="clearfix">
+                                 <div class="res-add-review-box left hom ">
+                                    <div class="main-rating-widget your-rating rating-widget ratings-wrapper  rating-widget-res_35337" data-res_id="35337" data-rating-for="restaurant" data-review_id="">
+                                       <div class="rating-bar clearfix">
+                                          <div class="rating-top">
+                                             <div class="ttnone left">Your Rating</div>
+                                          </div>
+                                          <!-- Rating -->
+                                          <div style="display: none;" class="rating-widget-num left hidden" data-original-rating-num="-">-  5</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <h3>
+                           Category:  1.Clothing   
+                           <t>
+                           2.Accessories
+                        </h3>
+                        <h4> E 145, Ramesh Marg, Behind Talwalkars,<br>Kendriya Vihar,C Scheme AA-1 </h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper container" id="mainframe">
+      <div class="col-l-12 res-left-area">
+         <div class="row">
+            <div style="min-height: 104px;" class="col-m-7 resinfo divider--right pr0">
+               <div class="resbox__main pos-relative pr15">
+                  <div class="clearfix pb5">
+                     <div class="resbox__main--row">
+                        <div class="">
+                           <div class="phone-details clearfix ">
+                              <div class="clear"></div>
+                              <div id="resinfo-phone" class="p-relative">
+                                 <div title="Smokin' Joe's, Ghatkopar West phone number" class="res-main-phone">
+                                    <div class="phone" id="phoneNoString">
+                                       <div class="">
+                                          <div class="s-title">
+                                             <h3>Sale Details*</h3>
+                                          </div>
+                                          <div class="black_color">
+                                             <h5>
+                                                <ul>
+                                                   <li type="square">BUY A LARGE PIZZA GET MEDIUM PIZZA SALAD COKE FREE .</li>
+                                                   <li type="square">BUY A MEDIUM PIZZA GET REGULAR PIZZA GARLIC BREAD COKE FREE.</li>
+                                                   <li type="square">OFFER ON V3,V4,NV2&NV3  </li>
+                                                </ul>
+                                             </h5>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="resbox__main--row">
+                     <div class="left res-info-group borderless res-main-address">
+                        <div class="s-title pt5">
+                           <h4>Location</h4>
+                        </div>
+                        <div data-icon="L" class="resinfo-icon res-main-address-icon">
+                           Smokin' Joe's Ghatkopar West, Mumbai, India address
+                        </div>
+                        <div class="res-main-address-text" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                           1, Patanwalla Compound, LBS Marg, Shreyas Cinema, <span itemprop="addressLocality">Ghatkopar West</span>, Mumbai<span class="hidden" itemprop="addressCountry">India</span> 
+                        </div>
+                     </div>
+                  </div>
+                  <div class="clearfix pb5">
+                     <div class="resbox__main--row">
+                        <div class="">
+                           <div class="phone-details clearfix ">
+                              <div class="clear"></div>
+                              <div id="resinfo-phone" class="p-relative">
+                                 <div title="Smokin' Joe's, Ghatkopar West phone number" class="res-main-phone">
+                                    <div class="phone" id="phoneNoString">
+                                       <div class="">
+                                          <div class="s-title">
+                                             <h4> Phone number </h4>
+                                          </div>
+                                          <span class="black_color">25008783</span>
+                                          <span class="black_color">25007524</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="resbox__main--row">
+                     <div class="resmap pos-relative mt5 mb5">
+                        <a href="#" class="res-map-link">Smokin' Joe's address, Smokin' Joe's location</a>
+                        <div id="res-map-canvas">
+                           <div class="resmap-text-container">
+                              <span class="resmap-text-left">Get Directions </span>
+                              <span class="resmap-text-right">Nearby Local</span>
+                           </div>
+                           <div style="background: #f4f4f4 url('https://maps.googleapis.com/maps/api/staticmap?center=19.0942540000,72.9133470000&amp;size=240x150&amp;maptype=roadmap\&amp;markers=scale:2|19.0942540000,72.9133470000|format=png32&amp;sensor=false&amp;scale=2&amp;zoom=14&amp;language=en') no-repeat center; width: 100%; background-size: cover; height: 100%;" class="resmap-img"></div>
+                        </div>
+                        <script type="text/javascript">
+                           var mapData = {
+                               lat: 19.0942540000,
+                               lon: 72.9133470000
+                           };
+                        </script>
+                     </div>
+                  </div>
+                  <div class="map-border-top"></div>
+               </div>
+               <div class="resbox__main--row">
+                  <!-- cuisines  -->
+                  <div class="res-info-group clearfix">
+                     <div class="left alpha">
+                        <h3 class="res-info-icon" data-icon="C">Cuisines served in Smokin' Joe's, Mumbai India</h3>
+                     </div>
+                     <div>
+                        <div class="">
+                           <div>
+                              <div class="s-title">Categories present:</div>
+                              <div> Clothing</div>
+                              <div> Accessories</div>
+                              <div> Restaurants</div>
+                           </div>
+                        </div>
+                        <div class="clear"></div>
+                        <!-- @bhaskar: removed menus div from here  -->
+                     </div>
+                  </div>
+                  <!-- what should order -->
+                  <div class="res-info-group clearfix">
+                     <div class="left alpha">
+                        <h3 class="res-info-icon" data-icon="c">Smokin' Joe's, Ghatkopar West timings</h3>
+                     </div>
+                     <div class="res-info-detail">
+                        <div>
+                           <div class="s-title">
+                              <div class="left mr10">Opening hours</div>
+                              <div class="clear"></div>
+                           </div>
+                           <div class="clear"></div>
+                           <span class="res-info-timings">
+                              <div>
+                                 <div class="clearfix">
+                                    <div style="min-width:50px;float:left;">Mon to Fri</div>
+                                    <div style="margin-left: 50px;"><span style="margin-right: 10px;" class="left">11 AM to 11 PM</span><span class="open-now-res">Open</span>
+                                    </div>
+                                 </div>
+                                 <div class="clearfix">
+                                    <div style="min-width:50px;float:left;">Saturday</div>
+                                    <div style="margin-left: 50px;"><span style="margin-right: 10px;" class="left">11 AM to 6 PM</span><span class="open-now-res">Open</span>
+                                    </div>
+                                 </div>
+                                 <div class="clearfix">
+                                    <div style="min-width:50px;float:left;">sunday</div>
+                                    <div style="margin-left: 50px;"><span style="margin-right: 10px;" class="left">11 AM to 3 PM</span><span class="open-now-res">Open</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </span>
+                           <!-- Nightlife fields -->
+                           <!--Happy Hours -->
+                        </div>
+                        <div class="clear"></div>
+                     </div>
+                  </div>
+                  <!-- Get Attributes -->
+                  <div class="res-info-group clearfix">
+                     <div class="left alpha">
+                        <h3 class="res-info-icon" data-icon="¥">Smokin' Joe's info</h3>
+                     </div>
+                     <div class="left">
+                        <div class="res-info-highlights ">
+                           <div class="s-title">Highlights</div>
+                           <!--?php /* no need to show a highlight tag if the country's ID is 189 or 208 or 30 and the tag is "serves non veg" */?-->
+                           <div class="res-info-feature">
+                              <div data-icon="´" class="res-info-feature-icon icon_green icon_delivery" title="Home Delivery"></div>
+                              <div class="res-info-feature-text">Home Delivery</div>
+                           </div>
+                           <!--?php /* no need to show a highlight tag if the country's ID is 189 or 208 or 30 and the tag is "serves non veg" */?-->
+                           <div class="res-info-feature">
+                              <div data-icon="´" class="res-info-feature-icon icon_green icon_dinein" title="Dine In"></div>
+                              <div class="res-info-feature-text">Dine-In Available</div>
+                           </div>
+                           <!--?php /* no need to show a highlight tag if the country's ID is 189 or 208 or 30 and the tag is "serves non veg" */?-->
+                           <div class="res-info-feature">
+                              <div data-icon="V" class="res-info-feature-icon icon_no_veg" title="Serves Non Veg"></div>
+                              <div class="res-info-feature-text">Serves Non Veg</div>
+                           </div>
+                           <!--?php /* no need to show a highlight tag if the country's ID is 189 or 208 or 30 and the tag is "serves non veg" */?-->
+                           <div class="res-info-feature">
+                              <div data-icon="À" class="res-info-feature-icon icon_red icon_no_bar" title="Bar Not Available"></div>
+                              <div class="res-info-feature-text">Bar Not Available</div>
+                           </div>
+                           <!--  Attributes Display -->
+                           <div class="res-info-feature">
+                              <div class="res-info-feature-icon icon_green" data-icon="´"></div>
+                              <div class="res-info-feature-text">Air Conditioned</div>
+                           </div>
+                           <div class="res-info-feature">
+                              <div class="res-info-feature-icon icon_green" data-icon="´"></div>
+                              <div class="res-info-feature-text">Meal Coupon</div>
+                           </div>
+                           <!--Stag Entry Flag -->
+                           <!-- Entry Fee -->
+                           <div class="clear"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--  <div class="res-info-group clearfix">
+                     <div class="left alpha">
+                        <h3 data-icon="F" class="res-info-icon">Cost and prices at Smokin' Joe's, Mumbai India</h3>
+                        <div class="clear"></div>
+                     </div>
+                     <div class="res-info-detail">
+                        <span class="hdn">Smokin' Joe's, Ghatkopar West </span>
+                        <div class="s-title">
+                           <div class="left">Cost&nbsp;</div>
+                           <a href="#" class="tooltip-w left"><span class="res-info-detail-icon" data-icon="|"></span></a>
+                           <div class="clear"></div>
+                        </div>
+                        <span itemprop="priceRange"> Rs. 700 for two people (approx.)</span>
+                        <div class="ht5"></div>
+                        <div class="mt5">
+                           <div class="res-info-cft-text">
+                              <span class="res-info-payment res-info-icon" data-icon="I">Payment options at Smokin' Joe's</span>
+                              <span itemprop="paymentAccepted">Cash</span>, <span itemprop="paymentAccepted" title="Credit Cards accepted at Smokin' Joe's">Cards</span> and <span itemprop="paymentAccepted" title="Meal Coupons (Sodexo/Ticket Meal) Accepted">Meal Coupons accepted</span> 
+                           </div>
+                           <div class="clear"></div>
+                           <div class="clear"></div>
+                        </div>
+                        
+                     </div>
+                     </div> -->
+               </div>
+            </div>
+            <div style="min-height: 3044px;" class="col-m-11 ptop0 res-middle-area plr15" id="tabtop">
+               <div class="clearfix">
+                  <!-- any change in this block should be reflected in restaurant-offer-preview.js  -> Mayank Bhola  -->
+                  <div class="resbox__special bb clearfix ">
+                     <br>
+                     <div class="res-section-title ">
+                        <h3> Loot on sale special offer*: </h3>
+                     </div>
+                     <span class="grey-text promos-disclaimer small">
+                        <h3>Extra 10% OFF* </h3>
+                     </span>
+                     <div class="clear"></div>
+                     <div class="clear"></div>
+                     <span class="left dates promo-start-date grey-text promos-disclaimer small">Valid from &nbsp;</span>
+                     <span class="left dates promo-start-date grey-text promos-disclaimer small">Wed,  1 Jul, 2015</span> 
+                     <span class="left dates promo-start-date grey-text promos-disclaimer small">&nbsp;To&nbsp;</span>
+                     <span class="left dates grey-text promos-disclaimer small promo-end-date">Sun,  5 Jul, 2015</span> 
+                     <div class="clear"></div>
+                     <div class="grey-text promos-disclaimer small">Promos are added and controlled by restaurants. Lootonsale is not liable for promos not being honored.</div>
+                     <div class="res-rating-nf   res-rating-nf--large   ">
+                        <span class="open-now-res res-rating-nf  ">Get Code</span>
+                     </div>
+                  </div>
+                  <div class="pb15 mb15 photo-preview ">
+                     <div class="clearfix">
+                        <div class="left alpha">
+                           <h3 class="res-info-icon res-p-icon" data-icon=")">Smokin' Joe's Pictures</h3>
+                        </div>
+                        <h2 class="s-title" id="resinfo-photos"><a class="no_underline" href="#"><span class="hdn">Smokin' Joe's, Ghatkopar West </span>Photos</a></h2>
+                        <div class="photosContainer mtop0" data-res_id="35337">
+                           <div class="res-photo-thumbnails clearfix">
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_NTQ0NTAzMjgzMD">
+                              <img class="res-photo-thumbnail photo4" src="loot/1.jpg" data-type="res" data-photo_id="r_NTQ0NTAzMjgzMD" data-index="0" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_NjQ5ODcxNzcxNT">
+                              <img class="res-photo-thumbnail photo4" src="loot/2.jpg" data-type="res" data-photo_id="r_NjQ5ODcxNzcxNT" data-index="1" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_MDA2MTI3NTQzMD">
+                              <img class="res-photo-thumbnail photo4" src="loot/3.jpg" data-type="res" data-photo_id="r_MDA2MTI3NTQzMD" data-index="2" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_NzA0OTY0NTc3NT">
+                              <img class="res-photo-thumbnail photo4" src="loot/4.jpg" data-type="res" data-photo_id="r_NzA0OTY0NTc3NT" data-index="3" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_NDQyNDM2NDkyNj">
+                              <img class="res-photo-thumbnail photo4" src="loot/5.jpg" data-type="res" data-photo_id="r_NDQyNDM2NDkyNj" data-index="4" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_ODk1NzIyNDcxOT">
+                              <img class="res-photo-thumbnail photo4" src="loot/6.jpg" data-type="res" data-photo_id="r_ODk1NzIyNDcxOT" data-index="5" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_Mjg5ODg4NzIwMD">
+                              <img class="res-photo-thumbnail photo4" src="loot/7.jpg" data-type="res" data-photo_id="r_Mjg5ODg4NzIwMD" data-index="6" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_ODg3NTAxMzI0Mz">
+                              <img class="res-photo-thumbnail photo4" src="loot/8.jpg" data-type="res" data-photo_id="r_ODg3NTAxMzI0Mz" data-index="7" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_MzU1MTU0NTc2OD">
+                              <img class="res-photo-thumbnail photo4" src="loot/9.jpg" data-type="res" data-photo_id="r_MzU1MTU0NTc2OD" data-index="8" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                              <a href="#" class="res-info-thumbs" data-photo_id="r_MjIxMTI5NjYxNz">
+                              <img class="res-photo-thumbnail photo4" src="loot/10.jpg" data-type="res" data-photo_id="r_MjIxMTI5NjYxNz" data-index="9" alt="Smokin' Joe's, Ghatkopar West Pictures">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="res-detail-review-container">
+                     <div class="res-review-tab-content-container">
+                        <div class="mb10 res-my-review-container no-review" id="my-reviews-container">
+                           <div class="filler-area hom">
+                              <div class="s-title">Write a review</div>
+                              <div class="clearfix mbot">
+                                 <!-- TODO: get icon for this box -->
+                                 <div id="" class="res-reviews-container  review-form-container" data-fb_publish="off" data-res_id="" data-snippet="restaurant-review" data-is-res-page-review="true" data-is-quick-review="true">
+                                    <div class="quickreview resbox-quickreview">
+                                       <div id="quickreview-container" class="quickreview__container js-closed clearfix">
+                                          <div id="js-quickreview-trigger" class="js-closed">
+                                             <!-- <div class="quickreview__tab" data-icon="r">
+                                                Smokin' Joe's                            </div> -->
+                                             <div class="quickreview__box clearfix" id="quickreview-box">
+                                                Please write at least 140 characters about your personal experience
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <h2 class="res-section-title" id="quick-review-form">
+                           <a href="#">
+                           <span class="hdn">'Smokin' Joe's, Ghatkopar West' </span>
+                           Reviews                                        </a>
+                        </h2>
+                        <div class="res-review-tab-content activity-tab active">
+                           <div class="activity-feed-container">
+                              <div id="ipadding-reviews-box" class=" ipadding p-relative reviews res-review-form-container review_message_container">
+                                 <div>
+                                    <section id="reviews-container">
+                                       <div class="zs-load-more-container" id="reviews-container" data-filter="reviews-top">
+                                          <div class="notifications-content">
+                                             <div class="res-reviews-container">
+                                                <div class="my-rev-cont">
+                                                   <div class="clear"></div>
+                                                </div>
+                                                <div class="clear"></div>
+                                             </div>
+                                             <div class="res-reviews-container res-reviews-area">
+                                                <div class="zs-following-list">
+                                                   <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                                                      <span style="display:none" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Restaurant">
+                                                      <span itemprop="name">#</span>
+                                                      </span>
+                                                      <div class="res-review clearfix js-activity-root mbot   item-to-hide-parent stupendousact" data-review_id="24167776" style="" data-snippet="restaurant-review">
+                                                         <div class="error-message-highlight review-message hidden mbot"></div>
+                                                         <div class="res-review-header clearfix">
+                                                            <div class="res-review-header-item">
+                                                               <div class="clearfix">
+                                                                  <div itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="snippet snippet-user snippet-user--primary">
+                                                                     <div class="snippet__head">
+                                                                        <a href="#">
+                                                                        <img style="display: inline-block;" class="snippet__image usr-pic" src="loot/11.jpg" data-original="https://a.zmtcdn.com/data/user_profile_pictures/03d/d41e1d0b08b6f1067a082677e6c3903d_100_thumb.jpg">
+                                                                        </a>
+                                                                     </div>
+                                                                     <div class="snippet__data">
+                                                                        <div itemprop="name" class="snippet__name">
+                                                                           <a class="snippet__link" href="#" data-entity_id="1327841">
+                                                                           <span class="left mr5 black_color">Carl Patel</span>
+                                                                           </a>
+                                                                        </div>
+                                                                        <div class="snippet__stats">
+                                                                           <div class="">
+                                                                              <span class="snippet__reviews"> 113</span>&nbsp;Reviews ,
+                                                                              <span class="snippet__followers">65</span>&nbsp;Followers 
+                                                                           </div>
+                                                                        </div>
+                                                                     </div>
+                                                                     <div class="snippet__action">
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                               <div class="res-review-top-right">
+                                                                  <!--<div class="res-review-top-right-rating">
+                                                                     <div class="left" style="background: none repeat scroll 0% 0% rgb(237, 237, 237);">
+                                                                         <div class="right" itemprop="rating"><div class="left"><div title="Good" class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-6" data-iconr="ø">Rated</div>&nbsp;&nbsp;</div></div>
+                                                                     </div>
+                                                                     <div class="clear"></div>
+                                                                     </div>-->
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div data-review-id="24167776" data-res_id="35337" class="res-review-body clearfix" style="">
+                                                            <div>
+                                                               <div itemprop="description">
+                                                                  <div class="rev-text">
+                                                                     <div class="left">
+                                                                        <div class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-6" data-iconr="ø">Rated</div>
+                                                                        &nbsp;&nbsp;
+                                                                     </div>
+                                                                     I like the pizza here. Delicious crust with just the right bread to cheese ratio as opposed to Domino's. A good variety of pizza as well. The pricing is okay. Try the maha pizza. Now that can really fill me up!
+                                                                     <div class="clear"></div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div class="diagonal-stripes"></div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="clear"></div>
+                                                   <div class="clear"></div>
+                                                   <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                                                      <span style="display:none" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Restaurant">
+                                                      <span itemprop="name">#</span>
+                                                      </span>
+                                                      <div class="res-review clearfix js-activity-root mbot   item-to-hide-parent stupendousact" data-review_id="7356727" style="" data-snippet="restaurant-review">
+                                                         <div class="error-message-highlight review-message hidden mbot"></div>
+                                                         <div class="res-review-header clearfix">
+                                                            <div class="res-review-header-item">
+                                                               <div class="clearfix">
+                                                                  <div itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="snippet snippet-user snippet-user--primary">
+                                                                     <div class="snippet__head">
+                                                                        <a href="#">
+                                                                        <img style="display: inline-block;" class="snippet__image usr-pic" src="loot/11.jpg" data-original="https://d.zmtcdn.com/data/user_profile_pictures/798/d175dfdda1a277d5c7743a9f0ad1a798_100_thumb.jpg">
+                                                                        </a>
+                                                                     </div>
+                                                                     <div class="snippet__data">
+                                                                        <div itemprop="name" class="snippet__name">
+                                                                           <a class="snippet__link" href="#" data-entity_id="313253">
+                                                                           <span class="left mr5 black_color">Mangesh</span>
+                                                                           </a>
+                                                                        </div>
+                                                                        <div class="snippet__stats">
+                                                                           <div class="">
+                                                                              <span class="snippet__reviews"> 8</span>&nbsp;Reviews ,
+                                                                              <span class="snippet__followers">67</span>&nbsp;Followers 
+                                                                           </div>
+                                                                        </div>
+                                                                     </div>
+                                                                     <div class="snippet__action">
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                               <div class="res-review-top-right">
+                                                                  <!--<div class="res-review-top-right-rating">
+                                                                     <div class="left" style="background: none repeat scroll 0% 0% rgb(237, 237, 237);">
+                                                                         <div class="right" itemprop="rating"><div class="left"><div title="Poor" class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>&nbsp;&nbsp;</div></div>
+                                                                     </div>
+                                                                     <div class="clear"></div>
+                                                                     </div>-->
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div data-review-id="7356727" data-res_id="35337" class="res-review-body clearfix" style="">
+                                                            <div>
+                                                               <div itemprop="description">
+                                                                  <div class="rev-text">
+                                                                     <div class="left">
+                                                                        <div class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>
+                                                                        &nbsp;&nbsp;
+                                                                     </div>
+                                                                     This is the state of pizza ordered last night. All in the bin
+                                                                     <br> I had ordered for a CGC based pizza and I didn't find it any great..spoilt the taste and the mood..
+                                                                     <div class="clear"></div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="clear"></div>
+                                                   <div class="clear"></div>
+                                                   <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                                                      <span style="display:none" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Restaurant">
+                                                      <span itemprop="name">#</span>
+                                                      </span>
+                                                      <div class="res-review clearfix js-activity-root mbot   item-to-hide-parent stupendousact" data-review_id="7356727" style="" data-snippet="restaurant-review">
+                                                         <div class="error-message-highlight review-message hidden mbot"></div>
+                                                         <div class="res-review-header clearfix">
+                                                            <div class="res-review-header-item">
+                                                               <div class="clearfix">
+                                                                  <div itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="snippet snippet-user snippet-user--primary">
+                                                                     <div class="snippet__head">
+                                                                        <a href="#">
+                                                                        <img style="display: inline-block;" class="snippet__image usr-pic" src="loot/11.jpg" data-original="https://d.zmtcdn.com/data/user_profile_pictures/798/d175dfdda1a277d5c7743a9f0ad1a798_100_thumb.jpg">
+                                                                        </a>
+                                                                     </div>
+                                                                     <div class="snippet__data">
+                                                                        <div itemprop="name" class="snippet__name">
+                                                                           <a class="snippet__link" href="#" data-entity_id="313253">
+                                                                           <span class="left mr5 black_color">Nikhil</span>
+                                                                           </a>
+                                                                        </div>
+                                                                        <div class="snippet__stats">
+                                                                           <div class="">
+                                                                              <span class="snippet__reviews"> 8</span>&nbsp;Reviews ,
+                                                                              <span class="snippet__followers">67</span>&nbsp;Followers 
+                                                                           </div>
+                                                                        </div>
+                                                                     </div>
+                                                                     <div class="snippet__action">
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                               <div class="res-review-top-right">
+                                                                  <!--<div class="res-review-top-right-rating">
+                                                                     <div class="left" style="background: none repeat scroll 0% 0% rgb(237, 237, 237);">
+                                                                         <div class="right" itemprop="rating"><div class="left"><div title="Poor" class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>&nbsp;&nbsp;</div></div>
+                                                                     </div>
+                                                                     <div class="clear"></div>
+                                                                     </div>-->
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div data-review-id="7356727" data-res_id="35337" class="res-review-body clearfix" style="">
+                                                            <div>
+                                                               <div itemprop="description">
+                                                                  <div class="rev-text">
+                                                                     <div class="left">
+                                                                        <div class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>
+                                                                        &nbsp;&nbsp;
+                                                                     </div>
+                                                                     This is the state of pizza ordered last night. All in the bin
+                                                                     <br> I had ordered for a CGC based pizza and I didn't find it any great..spoilt the taste and the mood..
+                                                                     <div class="clear"></div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="clear"></div>
+                                                   <div class="clear"></div>
+                                                   <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+                                                      <span style="display:none" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Restaurant">
+                                                      <span itemprop="name">#</span>
+                                                      </span>
+                                                      <div class="res-review clearfix js-activity-root mbot   item-to-hide-parent stupendousact" data-review_id="7356727" style="" data-snippet="restaurant-review">
+                                                         <div class="error-message-highlight review-message hidden mbot"></div>
+                                                         <div class="res-review-header clearfix">
+                                                            <div class="res-review-header-item">
+                                                               <div class="clearfix">
+                                                                  <div itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="snippet snippet-user snippet-user--primary">
+                                                                     <div class="snippet__head">
+                                                                        <a href="#">
+                                                                        <img style="display: inline-block;" class="snippet__image usr-pic" src="loot/11.jpg" data-original="https://d.zmtcdn.com/data/user_profile_pictures/798/d175dfdda1a277d5c7743a9f0ad1a798_100_thumb.jpg">
+                                                                        </a>
+                                                                     </div>
+                                                                     <div class="snippet__data">
+                                                                        <div itemprop="name" class="snippet__name">
+                                                                           <a class="snippet__link" href="#" data-entity_id="313253">
+                                                                           <span class="left mr5 black_color">Pradip</span>
+                                                                           </a>
+                                                                        </div>
+                                                                        <div class="snippet__stats">
+                                                                           <div class="">
+                                                                              <span class="snippet__reviews"> 8</span>&nbsp;Reviews ,
+                                                                              <span class="snippet__followers">67</span>&nbsp;Followers 
+                                                                           </div>
+                                                                        </div>
+                                                                     </div>
+                                                                     <div class="snippet__action">
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                               <div class="res-review-top-right">
+                                                                  <!--<div class="res-review-top-right-rating">
+                                                                     <div class="left" style="background: none repeat scroll 0% 0% rgb(237, 237, 237);">
+                                                                         <div class="right" itemprop="rating"><div class="left"><div title="Poor" class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>&nbsp;&nbsp;</div></div>
+                                                                     </div>
+                                                                     <div class="clear"></div>
+                                                                     </div>-->
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                         <div data-review-id="7356727" data-res_id="35337" class="res-review-body clearfix" style="">
+                                                            <div>
+                                                               <div itemprop="description">
+                                                                  <div class="rev-text">
+                                                                     <div class="left">
+                                                                        <div class="ttupper fs12px left bold zdhl2 tooltip icon-font-level-1" data-iconr="ò">Rated</div>
+                                                                        &nbsp;&nbsp;
+                                                                     </div>
+                                                                     This is the state of pizza ordered last night. All in the bin
+                                                                     <br> I had ordered for a CGC based pizza and I didn't find it any great..spoilt the taste and the mood..
+                                                                     <div class="clear"></div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="clear"></div>
+                                       </div>
+                                    </section>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div style="min-height: 3044px;" class="col-l-4 pl15 pt15 right-column-container hide-on-mobile ">
+         <div class="clearfix mtop">
+            <div class="res-add-container">
+               <div class="res-zbans zbans ">
+                  <div class="banner-sponsored">
+                     <h3>Similar sale offers on*</h3>
+                  </div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="354739" data-s_id="8601" data-bs_id="735923">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop1.jpeg" style="background-image:url(loot/shop1.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop1.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="370800" data-s_id="8611" data-bs_id="760813">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop2.jpeg" style="background-image:url(loot/shop2.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop2.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="370800" data-s_id="8611" data-bs_id="760813">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop2.jpeg" style="background-image:url(loot/shop1.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop2.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="370800" data-s_id="8611" data-bs_id="760813">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop2.jpeg" style="background-image:url(loot/shop2.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop2.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="370800" data-s_id="8611" data-bs_id="760813">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop2.jpeg" style="background-image:url(loot/shop1.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop2.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+               <div class="mb15 mbot-container" data-b_id="370800" data-s_id="8611" data-bs_id="760813">
+                  <a class="text-ban nhu" target="_top" href="#">
+                     <div class="lazyOwl text-banner-ad-image" data-src="loot/shop2.jpeg" style="background-image:url(loot/shop2.jpeg);background-size:cover">
+                        <!--<img class="text-ad-img" width="100%" title="" alt="" src="loot/shop2.jpeg"/>-->
+                        <div class="heading_text">Gopalas Veg Kitchen</div>
+                        <div class="ad-overlay"></div>
+                     </div>
+                  </a>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+               </div>
+            </div>
+            <!-- END RES-ADD-CONTAINER -->
+         </div>
+      </div>
+   </body>
 </html>
+

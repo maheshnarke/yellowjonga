@@ -1,0 +1,143 @@
+
+.newwapmain{
+    display:block;
+    background-color: #20BA39;
+    width: 100%;
+
+}
+.newcn1{
+    margin: 0;
+
+    text-align: center;
+    height:600px;
+    width: 20%;
+    background-color: red;
+    display:block;
+}
+
+
+.newcn2{
+    text-align: center;
+    height:auto;
+    width: 50%;
+    background-color: seagreen;
+    display: block;
+}
+
+.mainout{
+    border: solid pink 5px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 350px;
+    height: auto;
+    background-color: gray;
+    /*display: inline-block;*/
+    text-align: center;
+
+
+}
+
+.shopname{
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    border: solid gray 2px;
+    display:block;
+    bottom: 0px;
+    text-align: center;
+    background-color: #0066FF;
+}
+
+.newtop{
+    border-radius: inherit;
+    display: block;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newbott{
+    border-top: solid pink 4px;
+
+    display: block;
+    height: 120px;
+    width: 100%;
+    background-color: #00aacc;
+
+}
+.newbott1{
+    border-right:solid pink 4px;
+    padding: 10px;
+    float: left;
+    display: block;
+    width: 65%;
+    height: 100%;
+    background-color: inherit;
+
+
+}
+.newbott2{
+
+    display: inline-block;
+    background-color: orange;
+    width: 35%;
+    height: 100%;
+}
+.text1{
+    overflow: hidden;
+    font-size: 90%;
+    text-align: left;
+    height: 30%;
+    width: 100%;
+}
+.text1 img{
+    width: 20px;
+    height: 15px;
+}
+
+.text2{
+    overflow: hidden;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 90%;
+    text-align: left;
+    height: 40%;
+    width: 100%;
+}
+
+.text3{
+    overflow: hidden;
+    font-size: 90%;
+    padding: 5px;
+    text-align: left;
+    height: 30%;
+    width: 100%;
+}
+
+.text4{
+    font-weight: bold;
+    padding-top: 10px;
+    height: 40%;
+    width: 100%;
+}
+.text5{
+
+    height: 60%;
+    width: 100%;
+}
+
+.text5 button{
+    outline: hidden;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+
+
+}
+

@@ -1,0 +1,315 @@
+.col-s-16-col-l-3-pr0-search-filter-container-divider--right{
+    border-right-color: #F0F0F0;
+    border-right-style: solid;
+    border-right-width: 1px;
+    box-sizing: border-box;
+    color: #2D2D2D;
+    display: block;
+    float: left;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 1237px;
+    line-height: 18.6666660308838px;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 0px;
+    position: relative;
+    width: 210px;
+    zoom: 1;
+}
+
+.search-filters-container{
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 1227px;
+    line-height: 18.6666660308838px;
+    width: 199px;
+    zoom: 1;
+}
+.search-filters-top{
+
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 1227px;
+    line-height: 18.6666660308838px;
+    width: 199px;
+    zoom: 1;
+}
+
+.search-filter-tab{
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 57px;
+    line-height: 18.6666660308838px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 199px;
+    zoom: 1;
+
+}
+
+.filter-sort-html-area{
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 57px;
+    line-height: 18.6666660308838px;
+    width: 199px;
+    zoom: 1;
+}
+
+.search-filter-label-search-sort-label{
+    -webkit-user-select: none;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 55px;
+    line-height: 16.7999992370605px;
+    padding-top: 2px;
+    width: 199px;
+    zoom: 1;
+}
+
+.pb5{
+    -webkit-user-select: none;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16.7999992370605px;
+    padding-bottom: 5px;
+    width: 199px;
+    zoom: 1;
+}
+
+.clear{
+    -webkit-user-select: none;
+    clear: both;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 0px;
+    line-height: 16.7999992370605px;
+    width: 199px;
+    zoom: 1;
+}
+
+.p-relative-filter-input-area-box-sizing-content-search-input-field{
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-property: background-color;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-user-select: none;
+    border-bottom-color: rgb(244, 244, 244);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(244, 244, 244);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(244, 244, 244);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(244, 244, 244);
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: content-box;
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 16.7999992370605px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: ease-out;
+    width: 199px;
+    zoom: 1;
+}
+
+.sort-filter-placeholder-selected{
+    -webkit-user-select: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-sizing: content-box;
+    color: rgb(154, 154, 154);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 34px;
+    line-height: 34px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 0px;
+    text-transform: capitalize;
+    width: 189px;
+    zoom: 1;
+}
+
+.search-filter-icon{
+    -webkit-user-select: none;
+    box-sizing: content-box;
+    color: rgb(141, 141, 141);
+    cursor: pointer;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    width: 11px;
+    zoom: 1;
+}
+
+.filters-sort-list{
+
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease-out;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(45, 45, 45);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(45, 45, 45);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(45, 45, 45);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(45, 45, 45);
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 0px;
+    line-height: 18.6666660308838px;
+    min-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.15s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    width: 199px;
+    zoom: 1;
+}
+
+.search-filter-dd{
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 83px;
+    line-height: 18.6666660308838px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 189px;
+    zoom: 1;
+
+}
+.facet-list-dialog{
+    color: rgb(45, 45, 45);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 13.3333330154419px;
+    height: 83px;
+    line-height: 18.6666660308838px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 189px;
+    zoom: 1;
+}
+.liclass{
+    color: rgb(61, 61, 57);
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    height: 17px;
+    line-height: 16.7999992370605px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 189px;
+    zoom: 1;
+}
+
+.sel{
+    color: rgb(61, 61, 57);
+    cursor: auto;
+    display: block;
+    font-family: proxima_nova_rgregular, 'Helvetica Neue', Helvetica, Calibri, Arial, sans-serif;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16.7999992370605px;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 189px;
+    zoom: 1;
+
+}
